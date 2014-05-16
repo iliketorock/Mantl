@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE75229D19264408004EB594 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE75229C19264408004EB594 /* Foundation.framework */; };
+		EE75229F19264408004EB594 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE75229E19264408004EB594 /* CoreGraphics.framework */; };
+		EE7522A119264408004EB594 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE7522A019264408004EB594 /* UIKit.framework */; };
+		EE7522A319264408004EB594 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE7522A219264408004EB594 /* CoreData.framework */; };
+		EE7522A919264408004EB594 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EE7522A719264408004EB594 /* InfoPlist.strings */; };
+		EE7522AB19264408004EB594 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7522AA19264408004EB594 /* main.m */; };
+		EE7522AF19264408004EB594 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7522AE19264408004EB594 /* AppDelegate.m */; };
+		EE7522B219264408004EB594 /* Mantl.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EE7522B019264408004EB594 /* Mantl.xcdatamodeld */; };
+		EE7522B419264408004EB594 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE7522B319264408004EB594 /* Images.xcassets */; };
+		EE7522BB19264408004EB594 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE7522BA19264408004EB594 /* XCTest.framework */; };
+		EE7522BC19264408004EB594 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE75229C19264408004EB594 /* Foundation.framework */; };
+		EE7522BD19264408004EB594 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE7522A019264408004EB594 /* UIKit.framework */; };
+		EE7522BE19264408004EB594 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE7522A219264408004EB594 /* CoreData.framework */; };
+		EE7522C619264408004EB594 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EE7522C419264408004EB594 /* InfoPlist.strings */; };
+		EE7522C819264408004EB594 /* MantlTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7522C719264408004EB594 /* MantlTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE7522BF19264408004EB594 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE75229119264408004EB594 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE75229819264408004EB594;
+			remoteInfo = Mantl;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EE75229919264408004EB594 /* Mantl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mantl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE75229C19264408004EB594 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EE75229E19264408004EB594 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EE7522A019264408004EB594 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EE7522A219264408004EB594 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		EE7522A619264408004EB594 /* Mantl-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Mantl-Info.plist"; sourceTree = "<group>"; };
+		EE7522A819264408004EB594 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EE7522AA19264408004EB594 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EE7522AC19264408004EB594 /* Mantl-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Mantl-Prefix.pch"; sourceTree = "<group>"; };
+		EE7522AD19264408004EB594 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EE7522AE19264408004EB594 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EE7522B119264408004EB594 /* Mantl.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Mantl.xcdatamodel; sourceTree = "<group>"; };
+		EE7522B319264408004EB594 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EE7522B919264408004EB594 /* MantlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MantlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE7522BA19264408004EB594 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		EE7522C319264408004EB594 /* MantlTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MantlTests-Info.plist"; sourceTree = "<group>"; };
+		EE7522C519264408004EB594 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EE7522C719264408004EB594 /* MantlTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MantlTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE75229619264408004EB594 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE75229F19264408004EB594 /* CoreGraphics.framework in Frameworks */,
+				EE7522A319264408004EB594 /* CoreData.framework in Frameworks */,
+				EE7522A119264408004EB594 /* UIKit.framework in Frameworks */,
+				EE75229D19264408004EB594 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE7522B619264408004EB594 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE7522BB19264408004EB594 /* XCTest.framework in Frameworks */,
+				EE7522BE19264408004EB594 /* CoreData.framework in Frameworks */,
+				EE7522BD19264408004EB594 /* UIKit.framework in Frameworks */,
+				EE7522BC19264408004EB594 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE75229019264408004EB594 = {
+			isa = PBXGroup;
+			children = (
+				EE7522A419264408004EB594 /* Mantl */,
+				EE7522C119264408004EB594 /* MantlTests */,
+				EE75229B19264408004EB594 /* Frameworks */,
+				EE75229A19264408004EB594 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE75229A19264408004EB594 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE75229919264408004EB594 /* Mantl.app */,
+				EE7522B919264408004EB594 /* MantlTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE75229B19264408004EB594 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EE75229C19264408004EB594 /* Foundation.framework */,
+				EE75229E19264408004EB594 /* CoreGraphics.framework */,
+				EE7522A019264408004EB594 /* UIKit.framework */,
+				EE7522A219264408004EB594 /* CoreData.framework */,
+				EE7522BA19264408004EB594 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EE7522A419264408004EB594 /* Mantl */ = {
+			isa = PBXGroup;
+			children = (
+				EE7522AD19264408004EB594 /* AppDelegate.h */,
+				EE7522AE19264408004EB594 /* AppDelegate.m */,
+				EE7522B319264408004EB594 /* Images.xcassets */,
+				EE7522B019264408004EB594 /* Mantl.xcdatamodeld */,
+				EE7522A519264408004EB594 /* Supporting Files */,
+			);
+			path = Mantl;
+			sourceTree = "<group>";
+		};
+		EE7522A519264408004EB594 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE7522A619264408004EB594 /* Mantl-Info.plist */,
+				EE7522A719264408004EB594 /* InfoPlist.strings */,
+				EE7522AA19264408004EB594 /* main.m */,
+				EE7522AC19264408004EB594 /* Mantl-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EE7522C119264408004EB594 /* MantlTests */ = {
+			isa = PBXGroup;
+			children = (
+				EE7522C719264408004EB594 /* MantlTests.m */,
+				EE7522C219264408004EB594 /* Supporting Files */,
+			);
+			path = MantlTests;
+			sourceTree = "<group>";
+		};
+		EE7522C219264408004EB594 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE7522C319264408004EB594 /* MantlTests-Info.plist */,
+				EE7522C419264408004EB594 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE75229819264408004EB594 /* Mantl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE7522CB19264408004EB594 /* Build configuration list for PBXNativeTarget "Mantl" */;
+			buildPhases = (
+				EE75229519264408004EB594 /* Sources */,
+				EE75229619264408004EB594 /* Frameworks */,
+				EE75229719264408004EB594 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mantl;
+			productName = Mantl;
+			productReference = EE75229919264408004EB594 /* Mantl.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE7522B819264408004EB594 /* MantlTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE7522CE19264408004EB594 /* Build configuration list for PBXNativeTarget "MantlTests" */;
+			buildPhases = (
+				EE7522B519264408004EB594 /* Sources */,
+				EE7522B619264408004EB594 /* Frameworks */,
+				EE7522B719264408004EB594 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE7522C019264408004EB594 /* PBXTargetDependency */,
+			);
+			name = MantlTests;
+			productName = MantlTests;
+			productReference = EE7522B919264408004EB594 /* MantlTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE75229119264408004EB594 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Mantelzorgers Groep 2";
+				TargetAttributes = {
+					EE7522B819264408004EB594 = {
+						TestTargetID = EE75229819264408004EB594;
+					};
+				};
+			};
+			buildConfigurationList = EE75229419264408004EB594 /* Build configuration list for PBXProject "Mantl" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EE75229019264408004EB594;
+			productRefGroup = EE75229A19264408004EB594 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE75229819264408004EB594 /* Mantl */,
+				EE7522B819264408004EB594 /* MantlTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE75229719264408004EB594 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE7522A919264408004EB594 /* InfoPlist.strings in Resources */,
+				EE7522B419264408004EB594 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE7522B719264408004EB594 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE7522C619264408004EB594 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE75229519264408004EB594 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE7522B219264408004EB594 /* Mantl.xcdatamodeld in Sources */,
+				EE7522AF19264408004EB594 /* AppDelegate.m in Sources */,
+				EE7522AB19264408004EB594 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE7522B519264408004EB594 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE7522C819264408004EB594 /* MantlTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE7522C019264408004EB594 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE75229819264408004EB594 /* Mantl */;
+			targetProxy = EE7522BF19264408004EB594 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EE7522A719264408004EB594 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE7522A819264408004EB594 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EE7522C419264408004EB594 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE7522C519264408004EB594 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE7522C919264408004EB594 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EE7522CA19264408004EB594 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE7522CC19264408004EB594 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mantl/Mantl-Prefix.pch";
+				INFOPLIST_FILE = "Mantl/Mantl-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EE7522CD19264408004EB594 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mantl/Mantl-Prefix.pch";
+				INFOPLIST_FILE = "Mantl/Mantl-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EE7522CF19264408004EB594 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Mantl.app/Mantl";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mantl/Mantl-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MantlTests/MantlTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		EE7522D019264408004EB594 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Mantl.app/Mantl";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mantl/Mantl-Prefix.pch";
+				INFOPLIST_FILE = "MantlTests/MantlTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE75229419264408004EB594 /* Build configuration list for PBXProject "Mantl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE7522C919264408004EB594 /* Debug */,
+				EE7522CA19264408004EB594 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE7522CB19264408004EB594 /* Build configuration list for PBXNativeTarget "Mantl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE7522CC19264408004EB594 /* Debug */,
+				EE7522CD19264408004EB594 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EE7522CE19264408004EB594 /* Build configuration list for PBXNativeTarget "MantlTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE7522CF19264408004EB594 /* Debug */,
+				EE7522D019264408004EB594 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EE7522B019264408004EB594 /* Mantl.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EE7522B119264408004EB594 /* Mantl.xcdatamodel */,
+			);
+			currentVersion = EE7522B119264408004EB594 /* Mantl.xcdatamodel */;
+			path = Mantl.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EE75229119264408004EB594 /* Project object */;
+}
