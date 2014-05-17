@@ -22,6 +22,9 @@
 		EE7522BE19264408004EB594 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE7522A219264408004EB594 /* CoreData.framework */; };
 		EE7522C619264408004EB594 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EE7522C419264408004EB594 /* InfoPlist.strings */; };
 		EE7522C819264408004EB594 /* MantlTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7522C719264408004EB594 /* MantlTests.m */; };
+		EEB594EA1927D19F0005444F /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEB594E91927D19F0005444F /* Storyboard.storyboard */; };
+		EEB594EC1927EAB80005444F /* homescreen_mantl.png in Resources */ = {isa = PBXBuildFile; fileRef = EEB594EB1927EAB80005444F /* homescreen_mantl.png */; };
+		EEB594F01927F3B10005444F /* HomeScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB594EF1927F3B10005444F /* HomeScreenViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,10 @@
 		EE7522C319264408004EB594 /* MantlTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MantlTests-Info.plist"; sourceTree = "<group>"; };
 		EE7522C519264408004EB594 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		EE7522C719264408004EB594 /* MantlTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MantlTests.m; sourceTree = "<group>"; };
+		EEB594E91927D19F0005444F /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		EEB594EB1927EAB80005444F /* homescreen_mantl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = homescreen_mantl.png; sourceTree = "<group>"; };
+		EEB594EE1927F3B10005444F /* HomeScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeScreenViewController.h; sourceTree = "<group>"; };
+		EEB594EF1927F3B10005444F /* HomeScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeScreenViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,10 +122,14 @@
 		EE7522A419264408004EB594 /* Mantl */ = {
 			isa = PBXGroup;
 			children = (
+				EEB594E91927D19F0005444F /* Storyboard.storyboard */,
 				EE7522AD19264408004EB594 /* AppDelegate.h */,
 				EE7522AE19264408004EB594 /* AppDelegate.m */,
+				EEB594EE1927F3B10005444F /* HomeScreenViewController.h */,
+				EEB594EF1927F3B10005444F /* HomeScreenViewController.m */,
 				EE7522B319264408004EB594 /* Images.xcassets */,
 				EE7522B019264408004EB594 /* Mantl.xcdatamodeld */,
+				EEB594ED1927EAC20005444F /* images */,
 				EE7522A519264408004EB594 /* Supporting Files */,
 			);
 			path = Mantl;
@@ -151,6 +162,14 @@
 				EE7522C419264408004EB594 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EEB594ED1927EAC20005444F /* images */ = {
+			isa = PBXGroup;
+			children = (
+				EEB594EB1927EAB80005444F /* homescreen_mantl.png */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,6 +249,8 @@
 			files = (
 				EE7522A919264408004EB594 /* InfoPlist.strings in Resources */,
 				EE7522B419264408004EB594 /* Images.xcassets in Resources */,
+				EEB594EA1927D19F0005444F /* Storyboard.storyboard in Resources */,
+				EEB594EC1927EAB80005444F /* homescreen_mantl.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +270,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE7522B219264408004EB594 /* Mantl.xcdatamodeld in Sources */,
+				EEB594F01927F3B10005444F /* HomeScreenViewController.m in Sources */,
 				EE7522AF19264408004EB594 /* AppDelegate.m in Sources */,
 				EE7522AB19264408004EB594 /* main.m in Sources */,
 			);
@@ -447,6 +469,7 @@
 				EE7522CD19264408004EB594 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EE7522CE19264408004EB594 /* Build configuration list for PBXNativeTarget "MantlTests" */ = {
 			isa = XCConfigurationList;
@@ -455,6 +478,7 @@
 				EE7522D019264408004EB594 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
