@@ -22,6 +22,10 @@
 		EE7522BE19264408004EB594 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE7522A219264408004EB594 /* CoreData.framework */; };
 		EE7522C619264408004EB594 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EE7522C419264408004EB594 /* InfoPlist.strings */; };
 		EE7522C819264408004EB594 /* MantlTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7522C719264408004EB594 /* MantlTests.m */; };
+		EEA2269E192B44D4004628FC /* homescreen_button-01.png in Resources */ = {isa = PBXBuildFile; fileRef = EEA2269A192B44D4004628FC /* homescreen_button-01.png */; };
+		EEA2269F192B44D4004628FC /* homescreen_button-02.png in Resources */ = {isa = PBXBuildFile; fileRef = EEA2269B192B44D4004628FC /* homescreen_button-02.png */; };
+		EEA226A0192B44D4004628FC /* homescreen_button-03.png in Resources */ = {isa = PBXBuildFile; fileRef = EEA2269C192B44D4004628FC /* homescreen_button-03.png */; };
+		EEA226A1192B44D4004628FC /* homescreen_button-04.png in Resources */ = {isa = PBXBuildFile; fileRef = EEA2269D192B44D4004628FC /* homescreen_button-04.png */; };
 		EEB594EA1927D19F0005444F /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEB594E91927D19F0005444F /* Storyboard.storyboard */; };
 		EEB594EC1927EAB80005444F /* homescreen_mantl.png in Resources */ = {isa = PBXBuildFile; fileRef = EEB594EB1927EAB80005444F /* homescreen_mantl.png */; };
 		EEB594F01927F3B10005444F /* HomeScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB594EF1927F3B10005444F /* HomeScreenViewController.m */; };
@@ -56,6 +60,10 @@
 		EE7522C319264408004EB594 /* MantlTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MantlTests-Info.plist"; sourceTree = "<group>"; };
 		EE7522C519264408004EB594 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		EE7522C719264408004EB594 /* MantlTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MantlTests.m; sourceTree = "<group>"; };
+		EEA2269A192B44D4004628FC /* homescreen_button-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "homescreen_button-01.png"; sourceTree = "<group>"; };
+		EEA2269B192B44D4004628FC /* homescreen_button-02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "homescreen_button-02.png"; sourceTree = "<group>"; };
+		EEA2269C192B44D4004628FC /* homescreen_button-03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "homescreen_button-03.png"; sourceTree = "<group>"; };
+		EEA2269D192B44D4004628FC /* homescreen_button-04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "homescreen_button-04.png"; sourceTree = "<group>"; };
 		EEB594E91927D19F0005444F /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 		EEB594EB1927EAB80005444F /* homescreen_mantl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = homescreen_mantl.png; sourceTree = "<group>"; };
 		EEB594EE1927F3B10005444F /* HomeScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeScreenViewController.h; sourceTree = "<group>"; };
@@ -167,6 +175,10 @@
 		EEB594ED1927EAC20005444F /* images */ = {
 			isa = PBXGroup;
 			children = (
+				EEA2269A192B44D4004628FC /* homescreen_button-01.png */,
+				EEA2269B192B44D4004628FC /* homescreen_button-02.png */,
+				EEA2269C192B44D4004628FC /* homescreen_button-03.png */,
+				EEA2269D192B44D4004628FC /* homescreen_button-04.png */,
 				EEB594EB1927EAB80005444F /* homescreen_mantl.png */,
 			);
 			name = images;
@@ -247,8 +259,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEA226A1192B44D4004628FC /* homescreen_button-04.png in Resources */,
+				EEA2269F192B44D4004628FC /* homescreen_button-02.png in Resources */,
 				EE7522A919264408004EB594 /* InfoPlist.strings in Resources */,
+				EEA226A0192B44D4004628FC /* homescreen_button-03.png in Resources */,
 				EE7522B419264408004EB594 /* Images.xcassets in Resources */,
+				EEA2269E192B44D4004628FC /* homescreen_button-01.png in Resources */,
 				EEB594EA1927D19F0005444F /* Storyboard.storyboard in Resources */,
 				EEB594EC1927EAB80005444F /* homescreen_mantl.png in Resources */,
 			);

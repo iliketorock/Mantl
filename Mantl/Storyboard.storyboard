@@ -7,7 +7,6 @@
         <!--Navigation Controller-->
         <scene sceneID="TAG-I4-63k">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="vmh-Jj-VEc" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <navigationController definesPresentationContext="YES" navigationBarHidden="YES" id="WlJ-3k-4zV" sceneMemberID="viewController">
                     <nil key="simulatedStatusBarMetrics"/>
                     <nil key="simulatedTopBarMetrics"/>
@@ -24,13 +23,13 @@
                         <segue destination="fM7-n6-FCD" kind="relationship" relationship="rootViewController" id="KRv-cj-lqU"/>
                     </connections>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vmh-Jj-VEc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="7" y="73"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="aSi-0w-ZsO">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="wRc-AA-6bx" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="fM7-n6-FCD" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="5mt-9J-OID"/>
@@ -51,6 +50,34 @@
                                 </subviews>
                                 <color key="backgroundColor" red="0.8784313725490196" green="0.37647058823529411" blue="0.14509803921568629" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mbS-ca-phY">
+                                <rect key="frame" x="159" y="229" width="160" height="160"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="homescreen_button-02.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Iwj-9T-Opy">
+                                <rect key="frame" x="0.0" y="229" width="160" height="160"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="homescreen_button-01.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b5t-yI-mgq">
+                                <rect key="frame" x="0.0" y="388" width="160" height="160"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="homescreen_button-03.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LIK-JG-iUZ">
+                                <rect key="frame" x="159" y="388" width="160" height="160"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="homescreen_button-04.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -58,13 +85,17 @@
                         <barButtonItem id="e7e-DC-yVf"/>
                     </toolbarItems>
                     <navigationItem key="navigationItem" id="fj2-XS-bYU"/>
-                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wRc-AA-6bx" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="445" y="72"/>
         </scene>
     </scenes>
     <resources>
+        <image name="homescreen_button-01.png" width="833" height="833"/>
+        <image name="homescreen_button-02.png" width="833" height="833"/>
+        <image name="homescreen_button-03.png" width="833" height="833"/>
+        <image name="homescreen_button-04.png" width="833" height="833"/>
         <image name="homescreen_mantl.png" width="1606" height="533"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
