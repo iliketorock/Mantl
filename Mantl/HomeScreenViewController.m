@@ -35,6 +35,19 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (BOOL)prefersStatusBarHidden
+{
+    return YES;
+}
+
+-(void)viewWillAppear:(BOOL)animated{
+    [self.navigationController setNavigationBarHidden:YES];
+}
+
+-(void)viewWillDisappear:(BOOL)animated{
+     [self.navigationController setNavigationBarHidden:NO];
+}
+
 /*
 #pragma mark - Navigation
 
