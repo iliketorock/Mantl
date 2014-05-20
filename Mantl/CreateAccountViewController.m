@@ -91,24 +91,24 @@
                 {
                     NSLog(@"Register SUCCESS");
                     [self alertStatus:@"Registered Successfully." :@"Register Success!"];
-                    [self performSegueWithIdentifier: @"GoToLogIn" sender: self];
+                    [self performSegueWithIdentifier: @"GoToHome" sender: self];
                     
                     
                 } else {
                     
                     NSString *error_msg = (NSString *) [jsonData objectForKey:@"error_message"];
-                    [self alertStatus:error_msg :@"Register Failed!"];
+                    [self alertStatus:error_msg :@"Login Failed!"];
                 }
                 
             } else {
                 if (error) NSLog(@"Error: %@", error);
-                [self alertStatus:@"Connection Failed" :@"Register Failed!"];
+                [self alertStatus:@"Connection Failed" :@"Login Failed!"];
             }
         }
     }
     @catch (NSException * e) {
         NSLog(@"Exception: %@", e);
-        [self alertStatus:@"Register Failed." :@"Register Failed!"];
+        [self alertStatus:@"Login Failed." :@"Login Failed!"];
     }
 
 }
