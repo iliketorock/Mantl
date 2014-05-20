@@ -1,18 +1,18 @@
 //
-//  HomeScreenViewController.m
+//  AlleVragenViewController.m
 //  Mantl
 //
-//  Created by Sammi Fux on 17/05/14.
+//  Created by Sammi Fux on 20/05/14.
 //  Copyright (c) 2014 Mantelzorgers Groep 2. All rights reserved.
 //
 
-#import "HomeScreenViewController.h"
+#import "AlleVragenViewController.h"
 
-@interface HomeScreenViewController ()
+@interface AlleVragenViewController ()
 
 @end
 
-@implementation HomeScreenViewController
+@implementation AlleVragenViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -33,19 +33,6 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
-}
-
-- (BOOL)prefersStatusBarHidden
-{
-    return YES;
-}
-
--(void)viewWillAppear:(BOOL)animated{
-    [self.navigationController setNavigationBarHidden:YES];
-}
-
--(void)viewWillDisappear:(BOOL)animated{
-     [self.navigationController setNavigationBarHidden:NO];
 }
 
 /*
