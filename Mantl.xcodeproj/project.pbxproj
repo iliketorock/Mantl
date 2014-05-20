@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EE09B6B7192B4DF200BA8610 /* AlleVragenTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE09B6B6192B4DF200BA8610 /* AlleVragenTableViewController.m */; };
+		EE09B6BA192B4E1000BA8610 /* MijnVragenTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE09B6B9192B4E1000BA8610 /* MijnVragenTableViewController.m */; };
 		EE75229D19264408004EB594 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE75229C19264408004EB594 /* Foundation.framework */; };
 		EE75229F19264408004EB594 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE75229E19264408004EB594 /* CoreGraphics.framework */; };
 		EE7522A119264408004EB594 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE7522A019264408004EB594 /* UIKit.framework */; };
@@ -42,6 +44,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EE09B6B5192B4DF200BA8610 /* AlleVragenTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlleVragenTableViewController.h; sourceTree = "<group>"; };
+		EE09B6B6192B4DF200BA8610 /* AlleVragenTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlleVragenTableViewController.m; sourceTree = "<group>"; };
+		EE09B6B8192B4E1000BA8610 /* MijnVragenTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MijnVragenTableViewController.h; sourceTree = "<group>"; };
+		EE09B6B9192B4E1000BA8610 /* MijnVragenTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MijnVragenTableViewController.m; sourceTree = "<group>"; };
 		EE75229919264408004EB594 /* Mantl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mantl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE75229C19264408004EB594 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		EE75229E19264408004EB594 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -133,6 +139,10 @@
 				EEB594E91927D19F0005444F /* Storyboard.storyboard */,
 				EE7522AD19264408004EB594 /* AppDelegate.h */,
 				EE7522AE19264408004EB594 /* AppDelegate.m */,
+				EE09B6B8192B4E1000BA8610 /* MijnVragenTableViewController.h */,
+				EE09B6B9192B4E1000BA8610 /* MijnVragenTableViewController.m */,
+				EE09B6B5192B4DF200BA8610 /* AlleVragenTableViewController.h */,
+				EE09B6B6192B4DF200BA8610 /* AlleVragenTableViewController.m */,
 				EEB594EE1927F3B10005444F /* HomeScreenViewController.h */,
 				EEB594EF1927F3B10005444F /* HomeScreenViewController.m */,
 				EE7522B319264408004EB594 /* Images.xcassets */,
@@ -287,8 +297,10 @@
 			files = (
 				EE7522B219264408004EB594 /* Mantl.xcdatamodeld in Sources */,
 				EEB594F01927F3B10005444F /* HomeScreenViewController.m in Sources */,
+				EE09B6BA192B4E1000BA8610 /* MijnVragenTableViewController.m in Sources */,
 				EE7522AF19264408004EB594 /* AppDelegate.m in Sources */,
 				EE7522AB19264408004EB594 /* main.m in Sources */,
+				EE09B6B7192B4DF200BA8610 /* AlleVragenTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
