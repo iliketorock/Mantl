@@ -214,18 +214,18 @@
 		EE7522A419264408004EB594 /* Mantl */ = {
 			isa = PBXGroup;
 			children = (
-<<<<<<< HEAD
+ HEAD
 				184ACAAC192B766E00CD35B1 /* JSON */,
 				184ACAD5192B986B00CD35B1 /* CreateAccountViewController.h */,
 				184ACAD6192B986B00CD35B1 /* CreateAccountViewController.m */,
 				EEB594E91927D19F0005444F /* Storyboard.storyboard */,
 				184ACAA9192B720100CD35B1 /* LoginControllerViewController.h */,
 				184ACAAA192B720100CD35B1 /* LoginControllerViewController.m */,
-=======
+
 				EE747AA9192B97D40054A0E3 /* Storyboard.storyboard */,
 				EE747AAA192B9A060054A0E3 /* AlleVragenViewController.h */,
 				EE747AAB192B9A060054A0E3 /* AlleVragenViewController.m */,
->>>>>>> FETCH_HEAD
+ FETCH_HEAD
 				EE7522AD19264408004EB594 /* AppDelegate.h */,
 				EE7522AE19264408004EB594 /* AppDelegate.m */,
 				EE09B6B8192B4E1000BA8610 /* MijnVragenTableViewController.h */,
