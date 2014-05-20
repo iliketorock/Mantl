@@ -30,8 +30,8 @@
             <objects>
                 <viewController id="fM7-n6-FCD" customClass="HomeScreenViewController" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="5mt-9J-OID"/>
-                        <viewControllerLayoutGuide type="bottom" id="2h7-BJ-Mju"/>
+                        <viewControllerLayoutGuide type="top" id="DDF-oi-tEX"/>
+                        <viewControllerLayoutGuide type="bottom" id="OqL-PN-czn"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="i5W-jw-CeP">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
@@ -181,8 +181,8 @@
             <objects>
                 <viewController id="DK0-7k-2lm" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="3bM-TT-eXp"/>
-                        <viewControllerLayoutGuide type="bottom" id="J19-G1-eRN"/>
+                        <viewControllerLayoutGuide type="top" id="KxO-Dx-41X"/>
+                        <viewControllerLayoutGuide type="bottom" id="wPg-6P-Qhs"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Yto-6k-7LC">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
@@ -207,10 +207,10 @@
             </objects>
             <point key="canvasLocation" x="2503" y="164"/>
         </scene>
-        <!--Tab Bar Controller - VRAGEN-->
+        <!--Vragen View Controller - VRAGEN-->
         <scene sceneID="5cz-DR-sdW">
             <objects>
-                <tabBarController definesPresentationContext="YES" id="jjm-8n-xzp" sceneMemberID="viewController">
+                <tabBarController definesPresentationContext="YES" id="jjm-8n-xzp" customClass="VragenViewController" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" title="VRAGEN" id="zLy-xV-FSp"/>
                     <nil key="simulatedBottomBarMetrics"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="TcN-VC-abF">
@@ -297,8 +297,8 @@
             <objects>
                 <viewController id="ywz-gW-4WZ" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="mlp-jS-fpe"/>
-                        <viewControllerLayoutGuide type="bottom" id="FJx-aP-vxW"/>
+                        <viewControllerLayoutGuide type="top" id="iio-Y5-x0G"/>
+                        <viewControllerLayoutGuide type="bottom" id="Ynr-66-2ja"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="L5f-V8-f81">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
@@ -331,6 +331,7 @@
         <image name="homescreen_button-04.png" width="833" height="833"/>
         <image name="homescreen_mantl.png" width="1606" height="533"/>
     </resources>
+    <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>

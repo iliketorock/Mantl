@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		EE09B6B7192B4DF200BA8610 /* AlleVragenTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE09B6B6192B4DF200BA8610 /* AlleVragenTableViewController.m */; };
 		EE09B6BA192B4E1000BA8610 /* MijnVragenTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE09B6B9192B4E1000BA8610 /* MijnVragenTableViewController.m */; };
+		EE747AA7192B97D40054A0E3 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE747AA9192B97D40054A0E3 /* Storyboard.storyboard */; };
+		EE747AAC192B9A060054A0E3 /* AlleVragenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE747AAB192B9A060054A0E3 /* AlleVragenViewController.m */; };
 		EE75229D19264408004EB594 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE75229C19264408004EB594 /* Foundation.framework */; };
 		EE75229F19264408004EB594 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE75229E19264408004EB594 /* CoreGraphics.framework */; };
 		EE7522A119264408004EB594 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE7522A019264408004EB594 /* UIKit.framework */; };
@@ -28,7 +30,6 @@
 		EEA2269F192B44D4004628FC /* homescreen_button-02.png in Resources */ = {isa = PBXBuildFile; fileRef = EEA2269B192B44D4004628FC /* homescreen_button-02.png */; };
 		EEA226A0192B44D4004628FC /* homescreen_button-03.png in Resources */ = {isa = PBXBuildFile; fileRef = EEA2269C192B44D4004628FC /* homescreen_button-03.png */; };
 		EEA226A1192B44D4004628FC /* homescreen_button-04.png in Resources */ = {isa = PBXBuildFile; fileRef = EEA2269D192B44D4004628FC /* homescreen_button-04.png */; };
-		EEB594EA1927D19F0005444F /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEB594E91927D19F0005444F /* Storyboard.storyboard */; };
 		EEB594EC1927EAB80005444F /* homescreen_mantl.png in Resources */ = {isa = PBXBuildFile; fileRef = EEB594EB1927EAB80005444F /* homescreen_mantl.png */; };
 		EEB594F01927F3B10005444F /* HomeScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB594EF1927F3B10005444F /* HomeScreenViewController.m */; };
 /* End PBXBuildFile section */
@@ -48,6 +49,9 @@
 		EE09B6B6192B4DF200BA8610 /* AlleVragenTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlleVragenTableViewController.m; sourceTree = "<group>"; };
 		EE09B6B8192B4E1000BA8610 /* MijnVragenTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MijnVragenTableViewController.h; sourceTree = "<group>"; };
 		EE09B6B9192B4E1000BA8610 /* MijnVragenTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MijnVragenTableViewController.m; sourceTree = "<group>"; };
+		EE747AA8192B97D40054A0E3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/Storyboard.storyboard; sourceTree = "<group>"; };
+		EE747AAA192B9A060054A0E3 /* AlleVragenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlleVragenViewController.h; sourceTree = "<group>"; };
+		EE747AAB192B9A060054A0E3 /* AlleVragenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlleVragenViewController.m; sourceTree = "<group>"; };
 		EE75229919264408004EB594 /* Mantl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mantl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE75229C19264408004EB594 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		EE75229E19264408004EB594 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -70,7 +74,6 @@
 		EEA2269B192B44D4004628FC /* homescreen_button-02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "homescreen_button-02.png"; sourceTree = "<group>"; };
 		EEA2269C192B44D4004628FC /* homescreen_button-03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "homescreen_button-03.png"; sourceTree = "<group>"; };
 		EEA2269D192B44D4004628FC /* homescreen_button-04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "homescreen_button-04.png"; sourceTree = "<group>"; };
-		EEB594E91927D19F0005444F /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 		EEB594EB1927EAB80005444F /* homescreen_mantl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = homescreen_mantl.png; sourceTree = "<group>"; };
 		EEB594EE1927F3B10005444F /* HomeScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeScreenViewController.h; sourceTree = "<group>"; };
 		EEB594EF1927F3B10005444F /* HomeScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeScreenViewController.m; sourceTree = "<group>"; };
@@ -136,7 +139,9 @@
 		EE7522A419264408004EB594 /* Mantl */ = {
 			isa = PBXGroup;
 			children = (
-				EEB594E91927D19F0005444F /* Storyboard.storyboard */,
+				EE747AA9192B97D40054A0E3 /* Storyboard.storyboard */,
+				EE747AAA192B9A060054A0E3 /* AlleVragenViewController.h */,
+				EE747AAB192B9A060054A0E3 /* AlleVragenViewController.m */,
 				EE7522AD19264408004EB594 /* AppDelegate.h */,
 				EE7522AE19264408004EB594 /* AppDelegate.m */,
 				EE09B6B8192B4E1000BA8610 /* MijnVragenTableViewController.h */,
@@ -241,6 +246,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Mantelzorgers Groep 2";
 				TargetAttributes = {
+					EE75229819264408004EB594 = {
+						DevelopmentTeam = YH5Q937JE3;
+					};
 					EE7522B819264408004EB594 = {
 						TestTargetID = EE75229819264408004EB594;
 					};
@@ -275,7 +283,7 @@
 				EEA226A0192B44D4004628FC /* homescreen_button-03.png in Resources */,
 				EE7522B419264408004EB594 /* Images.xcassets in Resources */,
 				EEA2269E192B44D4004628FC /* homescreen_button-01.png in Resources */,
-				EEB594EA1927D19F0005444F /* Storyboard.storyboard in Resources */,
+				EE747AA7192B97D40054A0E3 /* Storyboard.storyboard in Resources */,
 				EEB594EC1927EAB80005444F /* homescreen_mantl.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -299,6 +307,7 @@
 				EEB594F01927F3B10005444F /* HomeScreenViewController.m in Sources */,
 				EE09B6BA192B4E1000BA8610 /* MijnVragenTableViewController.m in Sources */,
 				EE7522AF19264408004EB594 /* AppDelegate.m in Sources */,
+				EE747AAC192B9A060054A0E3 /* AlleVragenViewController.m in Sources */,
 				EE7522AB19264408004EB594 /* main.m in Sources */,
 				EE09B6B7192B4DF200BA8610 /* AlleVragenTableViewController.m in Sources */,
 			);
@@ -323,6 +332,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		EE747AA9192B97D40054A0E3 /* Storyboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE747AA8192B97D40054A0E3 /* en */,
+			);
+			name = Storyboard.storyboard;
+			sourceTree = "<group>";
+		};
 		EE7522A719264408004EB594 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -417,6 +434,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Mantl/Mantl-Prefix.pch";
 				INFOPLIST_FILE = "Mantl/Mantl-Info.plist";
@@ -430,6 +448,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Mantl/Mantl-Prefix.pch";
 				INFOPLIST_FILE = "Mantl/Mantl-Info.plist";

@@ -30,6 +30,12 @@
                                                            [UIFont fontWithName:@"HelveticaNeue" size:21.0], NSFontAttributeName, nil]];
     [[UINavigationBar appearance] setTintColor:[UIColor whiteColor]];
     
+    // Tabbar kleur
+    [[UITabBar appearance] setBarTintColor:UIColorFromRGB(0xE06025)];
+    [[UITabBarItem appearance] setTitleTextAttributes:@{                                                        NSForegroundColorAttributeName : [UIColor blackColor]} forState:UIControlStateNormal];
+    [[UITabBarItem appearance] setTitleTextAttributes:@{                                                        NSForegroundColorAttributeName : [UIColor whiteColor]} forState:UIControlStateSelected];
+    
+    
     return YES;
 }
 
