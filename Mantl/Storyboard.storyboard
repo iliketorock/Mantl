@@ -93,10 +93,10 @@
             </objects>
             <point key="canvasLocation" x="445" y="72"/>
         </scene>
-        <!--Table View Controller-->
+        <!--Dagboek Table View Controller-->
         <scene sceneID="gN7-cu-GrA">
             <objects>
-                <tableViewController id="mr3-hL-qjE" sceneMemberID="viewController">
+                <tableViewController id="mr3-hL-qjE" customClass="DagboekTableViewController" sceneMemberID="viewController">
                     <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="38" sectionHeaderHeight="22" sectionFooterHeight="22" id="JXk-Gu-68A">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -141,10 +141,10 @@
             </objects>
             <point key="canvasLocation" x="867" y="72"/>
         </scene>
-        <!--View Controller-->
+        <!--Schrijf View Controller-->
         <scene sceneID="rNA-x7-NBb">
             <objects>
-                <viewController id="424-ES-cfn" sceneMemberID="viewController">
+                <viewController id="424-ES-cfn" customClass="SchrijfViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="27U-a5-rWj"/>
                         <viewControllerLayoutGuide type="bottom" id="4yo-MJ-syO"/>
@@ -167,7 +167,7 @@
                                 </items>
                             </navigationBar>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="L53-y9-bU4">
-                                <rect key="frame" x="30" y="119" width="260" height="357"/>
+                                <rect key="frame" x="30" y="125" width="260" height="357"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <mutableString key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</mutableString>
@@ -180,15 +180,23 @@
                                 <state key="normal" title="Opslaan">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="opslaan:" destination="424-ES-cfn" eventType="touchUpInside" id="YHl-fE-Lpi"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="PJL-cO-LLT"/>
+                    <connections>
+                        <outlet property="dagboek" destination="L53-y9-bU4" id="gId-v4-ozD"/>
+                        <outlet property="opslaan" destination="6QX-Yt-CI5" id="JQw-YS-A2z"/>
+                        <outlet property="tekstveld" destination="L53-y9-bU4" id="y6r-iK-hyk"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5Ko-OQ-Iyk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1282" y="72"/>
+            <point key="canvasLocation" x="1417" y="-60"/>
         </scene>
     </scenes>
     <resources>
