@@ -1,18 +1,18 @@
 //
-//  HomeScreenViewController.m
+//  SchrijfViewController.m
 //  Mantl
 //
-//  Created by Sammi Fux on 17/05/14.
+//  Created by Brent Heynsmans on 21/05/14.
 //  Copyright (c) 2014 Mantelzorgers Groep 2. All rights reserved.
 //
 
-#import "HomeScreenViewController.h"
+#import "SchrijfViewController.h"
 
-@interface HomeScreenViewController ()
+@interface SchrijfViewController ()
 
 @end
 
-@implementation HomeScreenViewController
+@implementation SchrijfViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -35,19 +35,6 @@
     // Dispose of any resources that can be recreated.
 }
 
-- (BOOL)prefersStatusBarHidden
-{
-    return YES;
-}
-
-- (void)viewWillAppear:(BOOL)animated {
-    [self.navigationController setNavigationBarHidden:YES];
-}
-
--(void)viewWillDisappear:(BOOL)animated{
-    [self.navigationController setNavigationBarHidden:NO];
-}
-
 /*
 #pragma mark - Navigation
 
@@ -59,4 +46,7 @@
 }
 */
 
+- (IBAction)opslaan:(id)sender {
+    [self dismissViewControllerAnimated:YES completion:nil];
+}
 @end

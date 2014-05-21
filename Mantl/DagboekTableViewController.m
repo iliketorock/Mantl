@@ -1,18 +1,18 @@
 //
-//  AlleVragenTableViewController.m
+//  DagboekTableViewController.m
 //  Mantl
 //
-//  Created by Sammi Fux on 20/05/14.
+//  Created by Brent Heynsmans on 20/05/14.
 //  Copyright (c) 2014 Mantelzorgers Groep 2. All rights reserved.
 //
 
-#import "AlleVragenTableViewController.h"
+#import "DagboekTableViewController.h"
 
-@interface AlleVragenTableViewController ()
+@interface DagboekTableViewController ()
 
 @end
 
-@implementation AlleVragenTableViewController
+@implementation DagboekTableViewController
 
 - (id)initWithStyle:(UITableViewStyle)style
 {
@@ -32,8 +32,6 @@
     
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
-    
-    self.navigationController.navigationBar.translucent = NO;
 }
 
 - (void)didReceiveMemoryWarning
@@ -48,7 +46,7 @@
 {
 #warning Potentially incomplete method implementation.
     // Return the number of sections.
-    return 1;
+    return 0;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
