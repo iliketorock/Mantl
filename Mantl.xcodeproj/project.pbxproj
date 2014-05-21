@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-
 		A31796CA192CA8AB00B4F0B7 /* Tips.png in Resources */ = {isa = PBXBuildFile; fileRef = A31796C9192CA8AB00B4F0B7 /* Tips.png */; };
 		A3F0F841192B8E1000BF87CE /* homescreen_button-Instellingen.png in Resources */ = {isa = PBXBuildFile; fileRef = A3F0F840192B8E1000BF87CE /* homescreen_button-Instellingen.png */; };
 		A3F0F845192BF81E00BF87CE /* Instellingen-Instellingen.png in Resources */ = {isa = PBXBuildFile; fileRef = A3F0F842192BF81E00BF87CE /* Instellingen-Instellingen.png */; };
@@ -30,10 +29,6 @@
 		184ACAD1192B772A00CD35B1 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 184ACAC5192B772A00CD35B1 /* SBJsonWriter.m */; };
 		184ACAD7192B986B00CD35B1 /* CreateAccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 184ACAD6192B986B00CD35B1 /* CreateAccountViewController.m */; };
 		186835B2192BDA7700A48FE3 /* ForgetPasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 186835B1192BDA7700A48FE3 /* ForgetPasswordViewController.m */; };
-		C03E3520192C99D40063895C /* SchrijfViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C03E351F192C99D40063895C /* SchrijfViewController.m */; };
-		C03E3523192CAB4A0063895C /* HomeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C03E3522192CAB4A0063895C /* HomeModel.m */; };
-		C03E3526192CAB7A0063895C /* Diary.m in Sources */ = {isa = PBXBuildFile; fileRef = C03E3525192CAB7A0063895C /* Diary.m */; };
-		C03E3529192CC4CB0063895C /* DagboekViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C03E3528192CC4CB0063895C /* DagboekViewController.m */; };
 		C03E351A192B86A00063895C /* DagboekTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C03E3519192B86A00063895C /* DagboekTableViewController.m */; };
 		C03E3520192C99D40063895C /* SchrijfViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C03E351F192C99D40063895C /* SchrijfViewController.m */; };
 		EE75229D19264408004EB594 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE75229C19264408004EB594 /* Foundation.framework */; };
@@ -113,14 +108,6 @@
 		184ACAD6192B986B00CD35B1 /* CreateAccountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateAccountViewController.m; sourceTree = "<group>"; };
 		186835B0192BDA7700A48FE3 /* ForgetPasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForgetPasswordViewController.h; sourceTree = "<group>"; };
 		186835B1192BDA7700A48FE3 /* ForgetPasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForgetPasswordViewController.m; sourceTree = "<group>"; };
-		C03E351E192C99D40063895C /* SchrijfViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SchrijfViewController.h; sourceTree = "<group>"; };
-		C03E351F192C99D40063895C /* SchrijfViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SchrijfViewController.m; sourceTree = "<group>"; };
-		C03E3521192CAB4A0063895C /* HomeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeModel.h; sourceTree = "<group>"; };
-		C03E3522192CAB4A0063895C /* HomeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeModel.m; sourceTree = "<group>"; };
-		C03E3524192CAB7A0063895C /* Diary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Diary.h; sourceTree = "<group>"; };
-		C03E3525192CAB7A0063895C /* Diary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Diary.m; sourceTree = "<group>"; };
-		C03E3527192CC4CA0063895C /* DagboekViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DagboekViewController.h; sourceTree = "<group>"; };
-		C03E3528192CC4CB0063895C /* DagboekViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DagboekViewController.m; sourceTree = "<group>"; };
 		C03E3518192B86A00063895C /* DagboekTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DagboekTableViewController.h; sourceTree = "<group>"; };
 		C03E3519192B86A00063895C /* DagboekTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DagboekTableViewController.m; sourceTree = "<group>"; };
 		C03E351E192C99D40063895C /* SchrijfViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SchrijfViewController.h; sourceTree = "<group>"; };
@@ -250,12 +237,6 @@
 			isa = PBXGroup;
 			children = (
 				EEB594E91927D19F0005444F /* Storyboard.storyboard */,
-				C03E3527192CC4CA0063895C /* DagboekViewController.h */,
-				C03E3528192CC4CB0063895C /* DagboekViewController.m */,
-				C03E3521192CAB4A0063895C /* HomeModel.h */,
-				C03E3522192CAB4A0063895C /* HomeModel.m */,
-				C03E3524192CAB7A0063895C /* Diary.h */,
-				C03E3525192CAB7A0063895C /* Diary.m */,
 				EEE53B47192C9BAB00607624 /* AppDelegate.h */,
 				EEE53B48192C9BAB00607624 /* AppDelegate.m */,
 				184ACAAC192B766E00CD35B1 /* JSON */,
@@ -436,7 +417,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				C03E3520192C99D40063895C /* SchrijfViewController.m in Sources */,
-				C03E3526192CAB7A0063895C /* Diary.m in Sources */,
 				EE7522B219264408004EB594 /* Mantl.xcdatamodeld in Sources */,
 				C03E351A192B86A00063895C /* DagboekTableViewController.m in Sources */,
 				184ACACF192B772A00CD35B1 /* SBJsonTokeniser.m in Sources */,
@@ -451,11 +431,9 @@
 				184ACAC7192B772A00CD35B1 /* SBJsonParser.m in Sources */,
 				184ACAC6192B772A00CD35B1 /* NSObject+SBJson.m in Sources */,
 				184ACAD7192B986B00CD35B1 /* CreateAccountViewController.m in Sources */,
-				C03E3523192CAB4A0063895C /* HomeModel.m in Sources */,
 				184ACAD0192B772A00CD35B1 /* SBJsonUTF8Stream.m in Sources */,
 				EEE53B46192C9AEE00607624 /* MijnVragenTableViewController.m in Sources */,
 				184ACACD192B772A00CD35B1 /* SBJsonStreamWriterAccumulator.m in Sources */,
-				C03E3529192CC4CB0063895C /* DagboekViewController.m in Sources */,
 				EEE53B44192C9AEE00607624 /* AlleVragenTableViewController.m in Sources */,
 				184ACACC192B772A00CD35B1 /* SBJsonStreamWriter.m in Sources */,
 				184ACACE192B772A00CD35B1 /* SBJsonStreamWriterState.m in Sources */,
