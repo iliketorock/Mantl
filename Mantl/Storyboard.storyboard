@@ -572,7 +572,7 @@
                     <navigationItem key="navigationItem" title="DAGBOEK" id="6Hr-uX-O9D">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="oh5-aH-JOM">
                             <connections>
-                                <segue destination="gUa-AO-HvP" kind="push" id="Vmx-qp-b0S"/>
+                                <segue destination="gUa-AO-HvP" kind="modal" id="Vmx-qp-b0S"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -581,10 +581,10 @@
             </objects>
             <point key="canvasLocation" x="954" y="-717"/>
         </scene>
-        <!--View Controller-->
+        <!--Schrijf View Controller-->
         <scene sceneID="fDD-tQ-omu">
             <objects>
-                <viewController id="gUa-AO-HvP" sceneMemberID="viewController">
+                <viewController id="gUa-AO-HvP" customClass="SchrijfViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="sKa-XU-hWP"/>
                         <viewControllerLayoutGuide type="bottom" id="42t-AM-1HB"/>
@@ -594,7 +594,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ba9-0X-V36">
-                                <rect key="frame" x="30" y="71" width="260" height="349"/>
+                                <rect key="frame" x="30" y="98" width="260" height="349"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <mutableString key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</mutableString>
@@ -602,11 +602,14 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2zn-02-T0t">
-                                <rect key="frame" x="132" y="428" width="57" height="30"/>
+                                <rect key="frame" x="132" y="397" width="57" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Opslaan">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="opslaan:" destination="gUa-AO-HvP" eventType="touchUpInside" id="UP4-kv-pyG"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -615,7 +618,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5H4-bv-f0w" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1508" y="-711"/>
+            <point key="canvasLocation" x="1508" y="-703"/>
         </scene>
     </scenes>
     <resources>
