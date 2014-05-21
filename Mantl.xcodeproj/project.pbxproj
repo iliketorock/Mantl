@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C03E351A192B86A00063895C /* DagboekTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C03E3519192B86A00063895C /* DagboekTableViewController.m */; };
-		C03E3520192C99D40063895C /* SchrijfViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C03E351F192C99D40063895C /* SchrijfViewController.m */; };
 		184ACAAB192B720100CD35B1 /* LoginControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 184ACAAA192B720100CD35B1 /* LoginControllerViewController.m */; };
 		184ACAC6192B772A00CD35B1 /* NSObject+SBJson.m in Sources */ = {isa = PBXBuildFile; fileRef = 184ACAAE192B772A00CD35B1 /* NSObject+SBJson.m */; };
 		184ACAC7192B772A00CD35B1 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 184ACAB1192B772A00CD35B1 /* SBJsonParser.m */; };
@@ -24,6 +22,8 @@
 		184ACAD1192B772A00CD35B1 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 184ACAC5192B772A00CD35B1 /* SBJsonWriter.m */; };
 		184ACAD7192B986B00CD35B1 /* CreateAccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 184ACAD6192B986B00CD35B1 /* CreateAccountViewController.m */; };
 		186835B2192BDA7700A48FE3 /* ForgetPasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 186835B1192BDA7700A48FE3 /* ForgetPasswordViewController.m */; };
+		C03E351A192B86A00063895C /* DagboekTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C03E3519192B86A00063895C /* DagboekTableViewController.m */; };
+		C03E3520192C99D40063895C /* SchrijfViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C03E351F192C99D40063895C /* SchrijfViewController.m */; };
 		EE75229D19264408004EB594 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE75229C19264408004EB594 /* Foundation.framework */; };
 		EE75229F19264408004EB594 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE75229E19264408004EB594 /* CoreGraphics.framework */; };
 		EE7522A119264408004EB594 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE7522A019264408004EB594 /* UIKit.framework */; };
@@ -61,10 +61,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		C03E3518192B86A00063895C /* DagboekTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DagboekTableViewController.h; sourceTree = "<group>"; };
-		C03E3519192B86A00063895C /* DagboekTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DagboekTableViewController.m; sourceTree = "<group>"; };
-		C03E351E192C99D40063895C /* SchrijfViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SchrijfViewController.h; sourceTree = "<group>"; };
-		C03E351F192C99D40063895C /* SchrijfViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SchrijfViewController.m; sourceTree = "<group>"; };
 		184ACAA9192B720100CD35B1 /* LoginControllerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginControllerViewController.h; sourceTree = "<group>"; };
 		184ACAAA192B720100CD35B1 /* LoginControllerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginControllerViewController.m; sourceTree = "<group>"; };
 		184ACAAD192B772A00CD35B1 /* NSObject+SBJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJson.h"; sourceTree = "<group>"; };
@@ -96,6 +92,10 @@
 		184ACAD6192B986B00CD35B1 /* CreateAccountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateAccountViewController.m; sourceTree = "<group>"; };
 		186835B0192BDA7700A48FE3 /* ForgetPasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForgetPasswordViewController.h; sourceTree = "<group>"; };
 		186835B1192BDA7700A48FE3 /* ForgetPasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForgetPasswordViewController.m; sourceTree = "<group>"; };
+		C03E3518192B86A00063895C /* DagboekTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DagboekTableViewController.h; sourceTree = "<group>"; };
+		C03E3519192B86A00063895C /* DagboekTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DagboekTableViewController.m; sourceTree = "<group>"; };
+		C03E351E192C99D40063895C /* SchrijfViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SchrijfViewController.h; sourceTree = "<group>"; };
+		C03E351F192C99D40063895C /* SchrijfViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SchrijfViewController.m; sourceTree = "<group>"; };
 		EE75229919264408004EB594 /* Mantl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mantl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE75229C19264408004EB594 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		EE75229E19264408004EB594 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -220,8 +220,6 @@
 		EE7522A419264408004EB594 /* Mantl */ = {
 			isa = PBXGroup;
 			children = (
-				C03E351E192C99D40063895C /* SchrijfViewController.h */,
-				C03E351F192C99D40063895C /* SchrijfViewController.m */,
 				EEB594E91927D19F0005444F /* Storyboard.storyboard */,
 				EEE53B47192C9BAB00607624 /* AppDelegate.h */,
 				EEE53B48192C9BAB00607624 /* AppDelegate.m */,
@@ -236,14 +234,16 @@
 				EEE53B3F192C9AEE00607624 /* AlleVragenTableViewController.m */,
 				EEE53B40192C9AEE00607624 /* HomeScreenViewController.h */,
 				EEE53B41192C9AEE00607624 /* HomeScreenViewController.m */,
+				C03E3518192B86A00063895C /* DagboekTableViewController.h */,
+				C03E3519192B86A00063895C /* DagboekTableViewController.m */,
+				C03E351E192C99D40063895C /* SchrijfViewController.h */,
+				C03E351F192C99D40063895C /* SchrijfViewController.m */,
 				EEE53B42192C9AEE00607624 /* MijnVragenTableViewController.h */,
 				EEE53B43192C9AEE00607624 /* MijnVragenTableViewController.m */,
 				EE7522B319264408004EB594 /* Images.xcassets */,
 				EE7522B019264408004EB594 /* Mantl.xcdatamodeld */,
 				EEB594ED1927EAC20005444F /* images */,
 				EE7522A519264408004EB594 /* Supporting Files */,
-				C03E3518192B86A00063895C /* DagboekTableViewController.h */,
-				C03E3519192B86A00063895C /* DagboekTableViewController.m */,
 			);
 			path = Mantl;
 			sourceTree = "<group>";
@@ -390,12 +390,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-
 				C03E3520192C99D40063895C /* SchrijfViewController.m in Sources */,
 				EE7522B219264408004EB594 /* Mantl.xcdatamodeld in Sources */,
-				EEB594F01927F3B10005444F /* HomeScreenViewController.m in Sources */,
 				C03E351A192B86A00063895C /* DagboekTableViewController.m in Sources */,
-				EE7522AF19264408004EB594 /* AppDelegate.m in Sources */,
 				184ACACF192B772A00CD35B1 /* SBJsonTokeniser.m in Sources */,
 				EEE53B45192C9AEE00607624 /* HomeScreenViewController.m in Sources */,
 				EE7522B219264408004EB594 /* Mantl.xcdatamodeld in Sources */,
