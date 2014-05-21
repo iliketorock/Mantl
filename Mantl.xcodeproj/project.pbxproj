@@ -1,0 +1,627 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		184ACAAB192B720100CD35B1 /* LoginControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 184ACAAA192B720100CD35B1 /* LoginControllerViewController.m */; };
+		184ACAC6192B772A00CD35B1 /* NSObject+SBJson.m in Sources */ = {isa = PBXBuildFile; fileRef = 184ACAAE192B772A00CD35B1 /* NSObject+SBJson.m */; };
+		184ACAC7192B772A00CD35B1 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 184ACAB1192B772A00CD35B1 /* SBJsonParser.m */; };
+		184ACAC8192B772A00CD35B1 /* SBJsonStreamParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 184ACAB3192B772A00CD35B1 /* SBJsonStreamParser.m */; };
+		184ACAC9192B772A00CD35B1 /* SBJsonStreamParserAccumulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 184ACAB5192B772A00CD35B1 /* SBJsonStreamParserAccumulator.m */; };
+		184ACACA192B772A00CD35B1 /* SBJsonStreamParserAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 184ACAB7192B772A00CD35B1 /* SBJsonStreamParserAdapter.m */; };
+		184ACACB192B772A00CD35B1 /* SBJsonStreamParserState.m in Sources */ = {isa = PBXBuildFile; fileRef = 184ACAB9192B772A00CD35B1 /* SBJsonStreamParserState.m */; };
+		184ACACC192B772A00CD35B1 /* SBJsonStreamWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 184ACABB192B772A00CD35B1 /* SBJsonStreamWriter.m */; };
+		184ACACD192B772A00CD35B1 /* SBJsonStreamWriterAccumulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 184ACABD192B772A00CD35B1 /* SBJsonStreamWriterAccumulator.m */; };
+		184ACACE192B772A00CD35B1 /* SBJsonStreamWriterState.m in Sources */ = {isa = PBXBuildFile; fileRef = 184ACABF192B772A00CD35B1 /* SBJsonStreamWriterState.m */; };
+		184ACACF192B772A00CD35B1 /* SBJsonTokeniser.m in Sources */ = {isa = PBXBuildFile; fileRef = 184ACAC1192B772A00CD35B1 /* SBJsonTokeniser.m */; };
+		184ACAD0192B772A00CD35B1 /* SBJsonUTF8Stream.m in Sources */ = {isa = PBXBuildFile; fileRef = 184ACAC3192B772A00CD35B1 /* SBJsonUTF8Stream.m */; };
+		184ACAD1192B772A00CD35B1 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 184ACAC5192B772A00CD35B1 /* SBJsonWriter.m */; };
+		184ACAD7192B986B00CD35B1 /* CreateAccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 184ACAD6192B986B00CD35B1 /* CreateAccountViewController.m */; };
+		186835B2192BDA7700A48FE3 /* ForgetPasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 186835B1192BDA7700A48FE3 /* ForgetPasswordViewController.m */; };
+		EE75229D19264408004EB594 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE75229C19264408004EB594 /* Foundation.framework */; };
+		EE75229F19264408004EB594 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE75229E19264408004EB594 /* CoreGraphics.framework */; };
+		EE7522A119264408004EB594 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE7522A019264408004EB594 /* UIKit.framework */; };
+		EE7522A319264408004EB594 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE7522A219264408004EB594 /* CoreData.framework */; };
+		EE7522A919264408004EB594 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EE7522A719264408004EB594 /* InfoPlist.strings */; };
+		EE7522AB19264408004EB594 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7522AA19264408004EB594 /* main.m */; };
+		EE7522B219264408004EB594 /* Mantl.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EE7522B019264408004EB594 /* Mantl.xcdatamodeld */; };
+		EE7522B419264408004EB594 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE7522B319264408004EB594 /* Images.xcassets */; };
+		EE7522BB19264408004EB594 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE7522BA19264408004EB594 /* XCTest.framework */; };
+		EE7522BC19264408004EB594 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE75229C19264408004EB594 /* Foundation.framework */; };
+		EE7522BD19264408004EB594 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE7522A019264408004EB594 /* UIKit.framework */; };
+		EE7522BE19264408004EB594 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE7522A219264408004EB594 /* CoreData.framework */; };
+		EE7522C619264408004EB594 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EE7522C419264408004EB594 /* InfoPlist.strings */; };
+		EE7522C819264408004EB594 /* MantlTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7522C719264408004EB594 /* MantlTests.m */; };
+		EEA2269E192B44D4004628FC /* homescreen_button-01.png in Resources */ = {isa = PBXBuildFile; fileRef = EEA2269A192B44D4004628FC /* homescreen_button-01.png */; };
+		EEA2269F192B44D4004628FC /* homescreen_button-02.png in Resources */ = {isa = PBXBuildFile; fileRef = EEA2269B192B44D4004628FC /* homescreen_button-02.png */; };
+		EEA226A0192B44D4004628FC /* homescreen_button-03.png in Resources */ = {isa = PBXBuildFile; fileRef = EEA2269C192B44D4004628FC /* homescreen_button-03.png */; };
+		EEA226A1192B44D4004628FC /* homescreen_button-04.png in Resources */ = {isa = PBXBuildFile; fileRef = EEA2269D192B44D4004628FC /* homescreen_button-04.png */; };
+		EEB594EA1927D19F0005444F /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEB594E91927D19F0005444F /* Storyboard.storyboard */; };
+		EEB594EC1927EAB80005444F /* homescreen_mantl.png in Resources */ = {isa = PBXBuildFile; fileRef = EEB594EB1927EAB80005444F /* homescreen_mantl.png */; };
+		EEE53B44192C9AEE00607624 /* AlleVragenTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE53B3F192C9AEE00607624 /* AlleVragenTableViewController.m */; };
+		EEE53B45192C9AEE00607624 /* HomeScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE53B41192C9AEE00607624 /* HomeScreenViewController.m */; };
+		EEE53B46192C9AEE00607624 /* MijnVragenTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE53B43192C9AEE00607624 /* MijnVragenTableViewController.m */; };
+		EEE53B49192C9BAB00607624 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE53B48192C9BAB00607624 /* AppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE7522BF19264408004EB594 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE75229119264408004EB594 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE75229819264408004EB594;
+			remoteInfo = Mantl;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		184ACAA9192B720100CD35B1 /* LoginControllerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginControllerViewController.h; sourceTree = "<group>"; };
+		184ACAAA192B720100CD35B1 /* LoginControllerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginControllerViewController.m; sourceTree = "<group>"; };
+		184ACAAD192B772A00CD35B1 /* NSObject+SBJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJson.h"; sourceTree = "<group>"; };
+		184ACAAE192B772A00CD35B1 /* NSObject+SBJson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJson.m"; sourceTree = "<group>"; };
+		184ACAAF192B772A00CD35B1 /* SBJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJson.h; sourceTree = "<group>"; };
+		184ACAB0192B772A00CD35B1 /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		184ACAB1192B772A00CD35B1 /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		184ACAB2192B772A00CD35B1 /* SBJsonStreamParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParser.h; sourceTree = "<group>"; };
+		184ACAB3192B772A00CD35B1 /* SBJsonStreamParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParser.m; sourceTree = "<group>"; };
+		184ACAB4192B772A00CD35B1 /* SBJsonStreamParserAccumulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParserAccumulator.h; sourceTree = "<group>"; };
+		184ACAB5192B772A00CD35B1 /* SBJsonStreamParserAccumulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParserAccumulator.m; sourceTree = "<group>"; };
+		184ACAB6192B772A00CD35B1 /* SBJsonStreamParserAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParserAdapter.h; sourceTree = "<group>"; };
+		184ACAB7192B772A00CD35B1 /* SBJsonStreamParserAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParserAdapter.m; sourceTree = "<group>"; };
+		184ACAB8192B772A00CD35B1 /* SBJsonStreamParserState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParserState.h; sourceTree = "<group>"; };
+		184ACAB9192B772A00CD35B1 /* SBJsonStreamParserState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParserState.m; sourceTree = "<group>"; };
+		184ACABA192B772A00CD35B1 /* SBJsonStreamWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamWriter.h; sourceTree = "<group>"; };
+		184ACABB192B772A00CD35B1 /* SBJsonStreamWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamWriter.m; sourceTree = "<group>"; };
+		184ACABC192B772A00CD35B1 /* SBJsonStreamWriterAccumulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamWriterAccumulator.h; sourceTree = "<group>"; };
+		184ACABD192B772A00CD35B1 /* SBJsonStreamWriterAccumulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamWriterAccumulator.m; sourceTree = "<group>"; };
+		184ACABE192B772A00CD35B1 /* SBJsonStreamWriterState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamWriterState.h; sourceTree = "<group>"; };
+		184ACABF192B772A00CD35B1 /* SBJsonStreamWriterState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamWriterState.m; sourceTree = "<group>"; };
+		184ACAC0192B772A00CD35B1 /* SBJsonTokeniser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonTokeniser.h; sourceTree = "<group>"; };
+		184ACAC1192B772A00CD35B1 /* SBJsonTokeniser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonTokeniser.m; sourceTree = "<group>"; };
+		184ACAC2192B772A00CD35B1 /* SBJsonUTF8Stream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonUTF8Stream.h; sourceTree = "<group>"; };
+		184ACAC3192B772A00CD35B1 /* SBJsonUTF8Stream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonUTF8Stream.m; sourceTree = "<group>"; };
+		184ACAC4192B772A00CD35B1 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		184ACAC5192B772A00CD35B1 /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		184ACAD5192B986B00CD35B1 /* CreateAccountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateAccountViewController.h; sourceTree = "<group>"; };
+		184ACAD6192B986B00CD35B1 /* CreateAccountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateAccountViewController.m; sourceTree = "<group>"; };
+		186835B0192BDA7700A48FE3 /* ForgetPasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForgetPasswordViewController.h; sourceTree = "<group>"; };
+		186835B1192BDA7700A48FE3 /* ForgetPasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForgetPasswordViewController.m; sourceTree = "<group>"; };
+		EE75229919264408004EB594 /* Mantl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mantl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE75229C19264408004EB594 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EE75229E19264408004EB594 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EE7522A019264408004EB594 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EE7522A219264408004EB594 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		EE7522A619264408004EB594 /* Mantl-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Mantl-Info.plist"; sourceTree = "<group>"; };
+		EE7522A819264408004EB594 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EE7522AA19264408004EB594 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EE7522AC19264408004EB594 /* Mantl-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Mantl-Prefix.pch"; sourceTree = "<group>"; };
+		EE7522B119264408004EB594 /* Mantl.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Mantl.xcdatamodel; sourceTree = "<group>"; };
+		EE7522B319264408004EB594 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EE7522B919264408004EB594 /* MantlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MantlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE7522BA19264408004EB594 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		EE7522C319264408004EB594 /* MantlTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MantlTests-Info.plist"; sourceTree = "<group>"; };
+		EE7522C519264408004EB594 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EE7522C719264408004EB594 /* MantlTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MantlTests.m; sourceTree = "<group>"; };
+		EEA2269A192B44D4004628FC /* homescreen_button-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "homescreen_button-01.png"; sourceTree = "<group>"; };
+		EEA2269B192B44D4004628FC /* homescreen_button-02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "homescreen_button-02.png"; sourceTree = "<group>"; };
+		EEA2269C192B44D4004628FC /* homescreen_button-03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "homescreen_button-03.png"; sourceTree = "<group>"; };
+		EEA2269D192B44D4004628FC /* homescreen_button-04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "homescreen_button-04.png"; sourceTree = "<group>"; };
+		EEB594E91927D19F0005444F /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		EEB594EB1927EAB80005444F /* homescreen_mantl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = homescreen_mantl.png; sourceTree = "<group>"; };
+		EEE53B3E192C9AEE00607624 /* AlleVragenTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlleVragenTableViewController.h; sourceTree = "<group>"; };
+		EEE53B3F192C9AEE00607624 /* AlleVragenTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlleVragenTableViewController.m; sourceTree = "<group>"; };
+		EEE53B40192C9AEE00607624 /* HomeScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeScreenViewController.h; sourceTree = "<group>"; };
+		EEE53B41192C9AEE00607624 /* HomeScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeScreenViewController.m; sourceTree = "<group>"; };
+		EEE53B42192C9AEE00607624 /* MijnVragenTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MijnVragenTableViewController.h; sourceTree = "<group>"; };
+		EEE53B43192C9AEE00607624 /* MijnVragenTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MijnVragenTableViewController.m; sourceTree = "<group>"; };
+		EEE53B47192C9BAB00607624 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EEE53B48192C9BAB00607624 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE75229619264408004EB594 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE75229F19264408004EB594 /* CoreGraphics.framework in Frameworks */,
+				EE7522A319264408004EB594 /* CoreData.framework in Frameworks */,
+				EE7522A119264408004EB594 /* UIKit.framework in Frameworks */,
+				EE75229D19264408004EB594 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE7522B619264408004EB594 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE7522BB19264408004EB594 /* XCTest.framework in Frameworks */,
+				EE7522BE19264408004EB594 /* CoreData.framework in Frameworks */,
+				EE7522BD19264408004EB594 /* UIKit.framework in Frameworks */,
+				EE7522BC19264408004EB594 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		184ACAAC192B766E00CD35B1 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				184ACAAD192B772A00CD35B1 /* NSObject+SBJson.h */,
+				184ACAAE192B772A00CD35B1 /* NSObject+SBJson.m */,
+				184ACAAF192B772A00CD35B1 /* SBJson.h */,
+				184ACAB0192B772A00CD35B1 /* SBJsonParser.h */,
+				184ACAB1192B772A00CD35B1 /* SBJsonParser.m */,
+				184ACAB2192B772A00CD35B1 /* SBJsonStreamParser.h */,
+				184ACAB3192B772A00CD35B1 /* SBJsonStreamParser.m */,
+				184ACAB4192B772A00CD35B1 /* SBJsonStreamParserAccumulator.h */,
+				184ACAB5192B772A00CD35B1 /* SBJsonStreamParserAccumulator.m */,
+				184ACAB6192B772A00CD35B1 /* SBJsonStreamParserAdapter.h */,
+				184ACAB7192B772A00CD35B1 /* SBJsonStreamParserAdapter.m */,
+				184ACAB8192B772A00CD35B1 /* SBJsonStreamParserState.h */,
+				184ACAB9192B772A00CD35B1 /* SBJsonStreamParserState.m */,
+				184ACABA192B772A00CD35B1 /* SBJsonStreamWriter.h */,
+				184ACABB192B772A00CD35B1 /* SBJsonStreamWriter.m */,
+				184ACABC192B772A00CD35B1 /* SBJsonStreamWriterAccumulator.h */,
+				184ACABD192B772A00CD35B1 /* SBJsonStreamWriterAccumulator.m */,
+				184ACABE192B772A00CD35B1 /* SBJsonStreamWriterState.h */,
+				184ACABF192B772A00CD35B1 /* SBJsonStreamWriterState.m */,
+				184ACAC0192B772A00CD35B1 /* SBJsonTokeniser.h */,
+				184ACAC1192B772A00CD35B1 /* SBJsonTokeniser.m */,
+				184ACAC2192B772A00CD35B1 /* SBJsonUTF8Stream.h */,
+				184ACAC3192B772A00CD35B1 /* SBJsonUTF8Stream.m */,
+				184ACAC4192B772A00CD35B1 /* SBJsonWriter.h */,
+				184ACAC5192B772A00CD35B1 /* SBJsonWriter.m */,
+			);
+			name = JSON;
+			sourceTree = "<group>";
+		};
+		EE75229019264408004EB594 = {
+			isa = PBXGroup;
+			children = (
+				EE7522A419264408004EB594 /* Mantl */,
+				EE7522C119264408004EB594 /* MantlTests */,
+				EE75229B19264408004EB594 /* Frameworks */,
+				EE75229A19264408004EB594 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE75229A19264408004EB594 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE75229919264408004EB594 /* Mantl.app */,
+				EE7522B919264408004EB594 /* MantlTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE75229B19264408004EB594 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EE75229C19264408004EB594 /* Foundation.framework */,
+				EE75229E19264408004EB594 /* CoreGraphics.framework */,
+				EE7522A019264408004EB594 /* UIKit.framework */,
+				EE7522A219264408004EB594 /* CoreData.framework */,
+				EE7522BA19264408004EB594 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EE7522A419264408004EB594 /* Mantl */ = {
+			isa = PBXGroup;
+			children = (
+				EEB594E91927D19F0005444F /* Storyboard.storyboard */,
+				EEE53B47192C9BAB00607624 /* AppDelegate.h */,
+				EEE53B48192C9BAB00607624 /* AppDelegate.m */,
+				184ACAAC192B766E00CD35B1 /* JSON */,
+				184ACAD5192B986B00CD35B1 /* CreateAccountViewController.h */,
+				184ACAD6192B986B00CD35B1 /* CreateAccountViewController.m */,
+				186835B0192BDA7700A48FE3 /* ForgetPasswordViewController.h */,
+				186835B1192BDA7700A48FE3 /* ForgetPasswordViewController.m */,
+				184ACAA9192B720100CD35B1 /* LoginControllerViewController.h */,
+				184ACAAA192B720100CD35B1 /* LoginControllerViewController.m */,
+				EEE53B3E192C9AEE00607624 /* AlleVragenTableViewController.h */,
+				EEE53B3F192C9AEE00607624 /* AlleVragenTableViewController.m */,
+				EEE53B40192C9AEE00607624 /* HomeScreenViewController.h */,
+				EEE53B41192C9AEE00607624 /* HomeScreenViewController.m */,
+				EEE53B42192C9AEE00607624 /* MijnVragenTableViewController.h */,
+				EEE53B43192C9AEE00607624 /* MijnVragenTableViewController.m */,
+				EE7522B319264408004EB594 /* Images.xcassets */,
+				EE7522B019264408004EB594 /* Mantl.xcdatamodeld */,
+				EEB594ED1927EAC20005444F /* images */,
+				EE7522A519264408004EB594 /* Supporting Files */,
+			);
+			path = Mantl;
+			sourceTree = "<group>";
+		};
+		EE7522A519264408004EB594 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE7522A619264408004EB594 /* Mantl-Info.plist */,
+				EE7522A719264408004EB594 /* InfoPlist.strings */,
+				EE7522AA19264408004EB594 /* main.m */,
+				EE7522AC19264408004EB594 /* Mantl-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EE7522C119264408004EB594 /* MantlTests */ = {
+			isa = PBXGroup;
+			children = (
+				EE7522C719264408004EB594 /* MantlTests.m */,
+				EE7522C219264408004EB594 /* Supporting Files */,
+			);
+			path = MantlTests;
+			sourceTree = "<group>";
+		};
+		EE7522C219264408004EB594 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE7522C319264408004EB594 /* MantlTests-Info.plist */,
+				EE7522C419264408004EB594 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EEB594ED1927EAC20005444F /* images */ = {
+			isa = PBXGroup;
+			children = (
+				EEA2269A192B44D4004628FC /* homescreen_button-01.png */,
+				EEA2269B192B44D4004628FC /* homescreen_button-02.png */,
+				EEA2269C192B44D4004628FC /* homescreen_button-03.png */,
+				EEA2269D192B44D4004628FC /* homescreen_button-04.png */,
+				EEB594EB1927EAB80005444F /* homescreen_mantl.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE75229819264408004EB594 /* Mantl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE7522CB19264408004EB594 /* Build configuration list for PBXNativeTarget "Mantl" */;
+			buildPhases = (
+				EE75229519264408004EB594 /* Sources */,
+				EE75229619264408004EB594 /* Frameworks */,
+				EE75229719264408004EB594 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mantl;
+			productName = Mantl;
+			productReference = EE75229919264408004EB594 /* Mantl.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE7522B819264408004EB594 /* MantlTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE7522CE19264408004EB594 /* Build configuration list for PBXNativeTarget "MantlTests" */;
+			buildPhases = (
+				EE7522B519264408004EB594 /* Sources */,
+				EE7522B619264408004EB594 /* Frameworks */,
+				EE7522B719264408004EB594 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE7522C019264408004EB594 /* PBXTargetDependency */,
+			);
+			name = MantlTests;
+			productName = MantlTests;
+			productReference = EE7522B919264408004EB594 /* MantlTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE75229119264408004EB594 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Mantelzorgers Groep 2";
+				TargetAttributes = {
+					EE7522B819264408004EB594 = {
+						TestTargetID = EE75229819264408004EB594;
+					};
+				};
+			};
+			buildConfigurationList = EE75229419264408004EB594 /* Build configuration list for PBXProject "Mantl" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EE75229019264408004EB594;
+			productRefGroup = EE75229A19264408004EB594 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE75229819264408004EB594 /* Mantl */,
+				EE7522B819264408004EB594 /* MantlTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE75229719264408004EB594 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEA226A1192B44D4004628FC /* homescreen_button-04.png in Resources */,
+				EEA2269F192B44D4004628FC /* homescreen_button-02.png in Resources */,
+				EE7522A919264408004EB594 /* InfoPlist.strings in Resources */,
+				EEA226A0192B44D4004628FC /* homescreen_button-03.png in Resources */,
+				EE7522B419264408004EB594 /* Images.xcassets in Resources */,
+				EEA2269E192B44D4004628FC /* homescreen_button-01.png in Resources */,
+				EEB594EA1927D19F0005444F /* Storyboard.storyboard in Resources */,
+				EEB594EC1927EAB80005444F /* homescreen_mantl.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE7522B719264408004EB594 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE7522C619264408004EB594 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE75229519264408004EB594 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				184ACACF192B772A00CD35B1 /* SBJsonTokeniser.m in Sources */,
+				EEE53B45192C9AEE00607624 /* HomeScreenViewController.m in Sources */,
+				EE7522B219264408004EB594 /* Mantl.xcdatamodeld in Sources */,
+				184ACACB192B772A00CD35B1 /* SBJsonStreamParserState.m in Sources */,
+				186835B2192BDA7700A48FE3 /* ForgetPasswordViewController.m in Sources */,
+				EE7522AB19264408004EB594 /* main.m in Sources */,
+				184ACAD1192B772A00CD35B1 /* SBJsonWriter.m in Sources */,
+				184ACAAB192B720100CD35B1 /* LoginControllerViewController.m in Sources */,
+				184ACAC9192B772A00CD35B1 /* SBJsonStreamParserAccumulator.m in Sources */,
+				184ACAC7192B772A00CD35B1 /* SBJsonParser.m in Sources */,
+				184ACAC6192B772A00CD35B1 /* NSObject+SBJson.m in Sources */,
+				184ACAD7192B986B00CD35B1 /* CreateAccountViewController.m in Sources */,
+				184ACAD0192B772A00CD35B1 /* SBJsonUTF8Stream.m in Sources */,
+				EEE53B46192C9AEE00607624 /* MijnVragenTableViewController.m in Sources */,
+				184ACACD192B772A00CD35B1 /* SBJsonStreamWriterAccumulator.m in Sources */,
+				EEE53B44192C9AEE00607624 /* AlleVragenTableViewController.m in Sources */,
+				184ACACC192B772A00CD35B1 /* SBJsonStreamWriter.m in Sources */,
+				184ACACE192B772A00CD35B1 /* SBJsonStreamWriterState.m in Sources */,
+				184ACAC8192B772A00CD35B1 /* SBJsonStreamParser.m in Sources */,
+				184ACACA192B772A00CD35B1 /* SBJsonStreamParserAdapter.m in Sources */,
+				EEE53B49192C9BAB00607624 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE7522B519264408004EB594 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE7522C819264408004EB594 /* MantlTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE7522C019264408004EB594 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE75229819264408004EB594 /* Mantl */;
+			targetProxy = EE7522BF19264408004EB594 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EE7522A719264408004EB594 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE7522A819264408004EB594 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EE7522C419264408004EB594 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE7522C519264408004EB594 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE7522C919264408004EB594 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EE7522CA19264408004EB594 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE7522CC19264408004EB594 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mantl/Mantl-Prefix.pch";
+				INFOPLIST_FILE = "Mantl/Mantl-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EE7522CD19264408004EB594 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mantl/Mantl-Prefix.pch";
+				INFOPLIST_FILE = "Mantl/Mantl-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EE7522CF19264408004EB594 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Mantl.app/Mantl";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mantl/Mantl-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MantlTests/MantlTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		EE7522D019264408004EB594 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Mantl.app/Mantl";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mantl/Mantl-Prefix.pch";
+				INFOPLIST_FILE = "MantlTests/MantlTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE75229419264408004EB594 /* Build configuration list for PBXProject "Mantl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE7522C919264408004EB594 /* Debug */,
+				EE7522CA19264408004EB594 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE7522CB19264408004EB594 /* Build configuration list for PBXNativeTarget "Mantl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE7522CC19264408004EB594 /* Debug */,
+				EE7522CD19264408004EB594 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE7522CE19264408004EB594 /* Build configuration list for PBXNativeTarget "MantlTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE7522CF19264408004EB594 /* Debug */,
+				EE7522D019264408004EB594 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EE7522B019264408004EB594 /* Mantl.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EE7522B119264408004EB594 /* Mantl.xcdatamodel */,
+			);
+			currentVersion = EE7522B119264408004EB594 /* Mantl.xcdatamodel */;
+			path = Mantl.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EE75229119264408004EB594 /* Project object */;
+}
