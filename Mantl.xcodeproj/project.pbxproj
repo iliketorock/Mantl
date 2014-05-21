@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C03E351A192B86A00063895C /* DagboekTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C03E3519192B86A00063895C /* DagboekTableViewController.m */; };
 		EE75229D19264408004EB594 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE75229C19264408004EB594 /* Foundation.framework */; };
 		EE75229F19264408004EB594 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE75229E19264408004EB594 /* CoreGraphics.framework */; };
 		EE7522A119264408004EB594 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE7522A019264408004EB594 /* UIKit.framework */; };
@@ -42,6 +43,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C03E3518192B86A00063895C /* DagboekTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DagboekTableViewController.h; sourceTree = "<group>"; };
+		C03E3519192B86A00063895C /* DagboekTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DagboekTableViewController.m; sourceTree = "<group>"; };
 		EE75229919264408004EB594 /* Mantl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mantl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE75229C19264408004EB594 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		EE75229E19264408004EB594 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -139,6 +142,8 @@
 				EE7522B019264408004EB594 /* Mantl.xcdatamodeld */,
 				EEB594ED1927EAC20005444F /* images */,
 				EE7522A519264408004EB594 /* Supporting Files */,
+				C03E3518192B86A00063895C /* DagboekTableViewController.h */,
+				C03E3519192B86A00063895C /* DagboekTableViewController.m */,
 			);
 			path = Mantl;
 			sourceTree = "<group>";
@@ -287,6 +292,7 @@
 			files = (
 				EE7522B219264408004EB594 /* Mantl.xcdatamodeld in Sources */,
 				EEB594F01927F3B10005444F /* HomeScreenViewController.m in Sources */,
+				C03E351A192B86A00063895C /* DagboekTableViewController.m in Sources */,
 				EE7522AF19264408004EB594 /* AppDelegate.m in Sources */,
 				EE7522AB19264408004EB594 /* main.m in Sources */,
 			);
