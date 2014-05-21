@@ -7,8 +7,11 @@
 //
 
 #import "MijnVragenTableViewController.h"
+#import "Vraag.h"
 
 @interface MijnVragenTableViewController ()
+
+@property (nonatomic) NSArray* vragen;
 
 @end
 
@@ -34,6 +37,8 @@
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
     
     self.navigationController.navigationBar.translucent = NO;
+    
+    _vragen = [NSArray arrayWithObjects: [[Vraag alloc] initMetTitelEnVraag:@"Spruitjes" :@"Waar vind ik spruitjes in de winkel?"], [[Vraag alloc] initMetTitelEnVraag:@"WC's Blakke Zon" :@"Heeft de Blakke Zon deftig onderhouden WC's?"], nil];
 }
 
 - (void)didReceiveMemoryWarning
@@ -42,20 +47,33 @@
     // Dispose of any resources that can be recreated.
 }
 
-#pragma mark - Table view data source
-
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
-#warning Potentially incomplete method implementation.
     // Return the number of sections.
-    return 0;
+    return 1;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-#warning Incomplete method implementation.
     // Return the number of rows in the section.
-    return 0;
+    return _vragen.count;
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"MijnVraag"];
+    if (cell == nil) {
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:@"MijnVraag"];
+        cell.selectionStyle = UITableViewCellSelectionStyleNone;
+    }
+    
+    
+    Vraag* currenttitle = [_vragen objectAtIndex:indexPath.row];
+    NSString* title = currenttitle.titel;
+    NSString* vraag = currenttitle.vraag;
+    cell.textLabel.text = title;
+    cell.detailTextLabel.text = vraag;
+    
+    return cell;
 }
 
 /*
