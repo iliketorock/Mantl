@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A31796CA192CA8AB00B4F0B7 /* Tips.png in Resources */ = {isa = PBXBuildFile; fileRef = A31796C9192CA8AB00B4F0B7 /* Tips.png */; };
+		A3F0F841192B8E1000BF87CE /* homescreen_button-Instellingen.png in Resources */ = {isa = PBXBuildFile; fileRef = A3F0F840192B8E1000BF87CE /* homescreen_button-Instellingen.png */; };
+		A3F0F845192BF81E00BF87CE /* Instellingen-Instellingen.png in Resources */ = {isa = PBXBuildFile; fileRef = A3F0F842192BF81E00BF87CE /* Instellingen-Instellingen.png */; };
+		A3F0F846192BF81E00BF87CE /* Instellingen-Mantelzorger.png in Resources */ = {isa = PBXBuildFile; fileRef = A3F0F843192BF81E00BF87CE /* Instellingen-Mantelzorger.png */; };
+		A3F0F847192BF81E00BF87CE /* Instellingen-Zorgbehoevende.png in Resources */ = {isa = PBXBuildFile; fileRef = A3F0F844192BF81E00BF87CE /* Instellingen-Zorgbehoevende.png */; };
 		EE09B6B7192B4DF200BA8610 /* AlleVragenTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE09B6B6192B4DF200BA8610 /* AlleVragenTableViewController.m */; };
 		EE09B6BA192B4E1000BA8610 /* MijnVragenTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE09B6B9192B4E1000BA8610 /* MijnVragenTableViewController.m */; };
 		EE75229D19264408004EB594 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE75229C19264408004EB594 /* Foundation.framework */; };
@@ -44,6 +49,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A31796C9192CA8AB00B4F0B7 /* Tips.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tips.png; sourceTree = "<group>"; };
+		A3F0F840192B8E1000BF87CE /* homescreen_button-Instellingen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "homescreen_button-Instellingen.png"; sourceTree = "<group>"; };
+		A3F0F842192BF81E00BF87CE /* Instellingen-Instellingen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Instellingen-Instellingen.png"; sourceTree = "<group>"; };
+		A3F0F843192BF81E00BF87CE /* Instellingen-Mantelzorger.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Instellingen-Mantelzorger.png"; sourceTree = "<group>"; };
+		A3F0F844192BF81E00BF87CE /* Instellingen-Zorgbehoevende.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Instellingen-Zorgbehoevende.png"; sourceTree = "<group>"; };
 		EE09B6B5192B4DF200BA8610 /* AlleVragenTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlleVragenTableViewController.h; sourceTree = "<group>"; };
 		EE09B6B6192B4DF200BA8610 /* AlleVragenTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlleVragenTableViewController.m; sourceTree = "<group>"; };
 		EE09B6B8192B4E1000BA8610 /* MijnVragenTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MijnVragenTableViewController.h; sourceTree = "<group>"; };
@@ -185,6 +195,11 @@
 		EEB594ED1927EAC20005444F /* images */ = {
 			isa = PBXGroup;
 			children = (
+				A31796C9192CA8AB00B4F0B7 /* Tips.png */,
+				A3F0F842192BF81E00BF87CE /* Instellingen-Instellingen.png */,
+				A3F0F843192BF81E00BF87CE /* Instellingen-Mantelzorger.png */,
+				A3F0F844192BF81E00BF87CE /* Instellingen-Zorgbehoevende.png */,
+				A3F0F840192B8E1000BF87CE /* homescreen_button-Instellingen.png */,
 				EEA2269A192B44D4004628FC /* homescreen_button-01.png */,
 				EEA2269B192B44D4004628FC /* homescreen_button-02.png */,
 				EEA2269C192B44D4004628FC /* homescreen_button-03.png */,
@@ -269,14 +284,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3F0F846192BF81E00BF87CE /* Instellingen-Mantelzorger.png in Resources */,
 				EEA226A1192B44D4004628FC /* homescreen_button-04.png in Resources */,
+				A3F0F847192BF81E00BF87CE /* Instellingen-Zorgbehoevende.png in Resources */,
 				EEA2269F192B44D4004628FC /* homescreen_button-02.png in Resources */,
 				EE7522A919264408004EB594 /* InfoPlist.strings in Resources */,
 				EEA226A0192B44D4004628FC /* homescreen_button-03.png in Resources */,
 				EE7522B419264408004EB594 /* Images.xcassets in Resources */,
 				EEA2269E192B44D4004628FC /* homescreen_button-01.png in Resources */,
+				A3F0F841192B8E1000BF87CE /* homescreen_button-Instellingen.png in Resources */,
 				EEB594EA1927D19F0005444F /* Storyboard.storyboard in Resources */,
 				EEB594EC1927EAB80005444F /* homescreen_mantl.png in Resources */,
+				A31796CA192CA8AB00B4F0B7 /* Tips.png in Resources */,
+				A3F0F845192BF81E00BF87CE /* Instellingen-Instellingen.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
