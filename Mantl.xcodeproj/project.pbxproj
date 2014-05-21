@@ -21,6 +21,7 @@
 		184ACAD0192B772A00CD35B1 /* SBJsonUTF8Stream.m in Sources */ = {isa = PBXBuildFile; fileRef = 184ACAC3192B772A00CD35B1 /* SBJsonUTF8Stream.m */; };
 		184ACAD1192B772A00CD35B1 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 184ACAC5192B772A00CD35B1 /* SBJsonWriter.m */; };
 		184ACAD7192B986B00CD35B1 /* CreateAccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 184ACAD6192B986B00CD35B1 /* CreateAccountViewController.m */; };
+		186835B2192BDA7700A48FE3 /* ForgetPasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 186835B1192BDA7700A48FE3 /* ForgetPasswordViewController.m */; };
 		EE09B6B7192B4DF200BA8610 /* AlleVragenTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE09B6B6192B4DF200BA8610 /* AlleVragenTableViewController.m */; };
 		EE09B6BA192B4E1000BA8610 /* MijnVragenTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE09B6B9192B4E1000BA8610 /* MijnVragenTableViewController.m */; };
 		EE75229D19264408004EB594 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE75229C19264408004EB594 /* Foundation.framework */; };
@@ -87,6 +88,8 @@
 		184ACAC5192B772A00CD35B1 /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
 		184ACAD5192B986B00CD35B1 /* CreateAccountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateAccountViewController.h; sourceTree = "<group>"; };
 		184ACAD6192B986B00CD35B1 /* CreateAccountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateAccountViewController.m; sourceTree = "<group>"; };
+		186835B0192BDA7700A48FE3 /* ForgetPasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForgetPasswordViewController.h; sourceTree = "<group>"; };
+		186835B1192BDA7700A48FE3 /* ForgetPasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForgetPasswordViewController.m; sourceTree = "<group>"; };
 		EE09B6B5192B4DF200BA8610 /* AlleVragenTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlleVragenTableViewController.h; sourceTree = "<group>"; };
 		EE09B6B6192B4DF200BA8610 /* AlleVragenTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlleVragenTableViewController.m; sourceTree = "<group>"; };
 		EE09B6B8192B4E1000BA8610 /* MijnVragenTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MijnVragenTableViewController.h; sourceTree = "<group>"; };
@@ -215,6 +218,8 @@
 				184ACAD5192B986B00CD35B1 /* CreateAccountViewController.h */,
 				184ACAD6192B986B00CD35B1 /* CreateAccountViewController.m */,
 				EEB594E91927D19F0005444F /* Storyboard.storyboard */,
+				186835B0192BDA7700A48FE3 /* ForgetPasswordViewController.h */,
+				186835B1192BDA7700A48FE3 /* ForgetPasswordViewController.m */,
 				184ACAA9192B720100CD35B1 /* LoginControllerViewController.h */,
 				184ACAAA192B720100CD35B1 /* LoginControllerViewController.m */,
 				EE7522AD19264408004EB594 /* AppDelegate.h */,
@@ -380,6 +385,7 @@
 				EEB594F01927F3B10005444F /* HomeScreenViewController.m in Sources */,
 				184ACACB192B772A00CD35B1 /* SBJsonStreamParserState.m in Sources */,
 				EE09B6BA192B4E1000BA8610 /* MijnVragenTableViewController.m in Sources */,
+				186835B2192BDA7700A48FE3 /* ForgetPasswordViewController.m in Sources */,
 				EE7522AF19264408004EB594 /* AppDelegate.m in Sources */,
 				EE7522AB19264408004EB594 /* main.m in Sources */,
 				184ACAD1192B772A00CD35B1 /* SBJsonWriter.m in Sources */,

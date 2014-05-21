@@ -1,19 +1,19 @@
 //
-//  LoginControllerViewController.m
+//  ForgetPasswordViewController.m
 //  Mantl
 //
 //  Created by Arnaud Gandibleux on 20/05/14.
 //  Copyright (c) 2014 Mantelzorgers Groep 2. All rights reserved.
 //
 
-#import "LoginControllerViewController.h"
+#import "ForgetPasswordViewController.h"
 #import "SBJson.h"
 
-@interface LoginControllerViewController ()
+@interface ForgetPasswordViewController ()
 
 @end
 
-@implementation LoginControllerViewController
+@implementation ForgetPasswordViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -47,16 +47,16 @@
 }
 */
 
-- (IBAction)LoginButton:(id)sender {
+- (IBAction)send:(id)sender {
     @try {
         
-        if([[_usernameTxt text] isEqualToString:@""] || [[_paswoordTxt text] isEqualToString:@""] ) {
-            [self alertStatus:@"Please enter both Username and Password" :@"Login Failed!"];
+        if([[_emailtxt text] isEqualToString:@""]) {
+            [self alertStatus:@"Please enter an email" :@"Send Failed!"];
         } else {
-            NSString *post =[[NSString alloc] initWithFormat:@"username=%@&password=%@",[_usernameTxt text],[_paswoordTxt text]];
+            NSString *post =[[NSString alloc] initWithFormat:@"email=%@",[_emailtxt text]];
             NSLog(@"PostData: %@",post);
             
-            NSURL *url=[NSURL URLWithString:@"http://gandibleux.eu/PHP/jsonlogin.php"];
+            NSURL *url=[NSURL URLWithString:@"http://gandibleux.eu/PHP/jsonforgetpass.php"];
             
             NSData *postData = [post dataUsingEncoding:NSASCIIStringEncoding allowLossyConversion:YES];
             
@@ -90,31 +90,30 @@
                 if(success == 1)
                 {
                     NSLog(@"Login SUCCESS");
-                    [self alertStatus:@"Logged in Successfully." :@"Login Success!"];
-                    [self performSegueWithIdentifier: @"GoToHome" sender: self];
-
+                    [self alertStatus:@"Password send successfully." :@"Send Successfull!"];
+                    [self performSegueWithIdentifier: @"GoToLog" sender: self];
+                    
                     
                 } else {
                     
                     NSString *error_msg = (NSString *) [jsonData objectForKey:@"error_message"];
-                    [self alertStatus:error_msg :@"Login Failed!"];
+                    [self alertStatus:error_msg :@"Send Failed!"];
                 }
                 
             } else {
                 if (error) NSLog(@"Error: %@", error);
-                [self alertStatus:@"Connection Failed" :@"Login Failed!"];
+                [self alertStatus:@"Connection Failed" :@"Send Failed!"];
             }
         }
     }
     @catch (NSException * e) {
         NSLog(@"Exception: %@", e);
-        [self alertStatus:@"Login Failed." :@"Login Failed!"];
+        [self alertStatus:@"Send Failed." :@"Send Failed!"];
     }
 }
 
 - (IBAction)backgroundClick:(id)sender {
-    [_usernameTxt resignFirstResponder];
-    [_paswoordTxt resignFirstResponder];
+    [_emailtxt resignFirstResponder];
 }
 - (void) alertStatus:(NSString *)msg :(NSString *)title
 {

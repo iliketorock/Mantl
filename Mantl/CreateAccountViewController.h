@@ -12,6 +12,7 @@
 @property (weak, nonatomic) IBOutlet UITextField *txtEmail;
 @property (weak, nonatomic) IBOutlet UITextField *txtWachtwoord;
 @property (weak, nonatomic) IBOutlet UITextField *txtWachtwoord2;
+- (IBAction)backgroundClick:(id)sender;
 
 - (IBAction)Registreer:(id)sender;
 @end

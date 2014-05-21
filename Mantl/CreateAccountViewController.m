@@ -47,13 +47,20 @@
 }
 */
 
+- (IBAction)backgroundClick:(id)sender {
+    [_txtEmail resignFirstResponder];
+    [_txtWachtwoord resignFirstResponder];
+    [_txtWachtwoord2 resignFirstResponder];
+    
+}
+
 - (IBAction)Registreer:(id)sender {
     @try {
         
         if([[_txtEmail text] isEqualToString:@""] || [[_txtWachtwoord text] isEqualToString:@""] || [[_txtWachtwoord2 text] isEqualToString:@""]) {
             [self alertStatus:@"Please fill in all field" :@"Register Failed!"];
         } else {
-            NSString *post =[[NSString alloc] initWithFormat:@"email=%@&paswoord=%@",[_txtEmail text],[_txtWachtwoord text]];
+            NSString *post =[[NSString alloc] initWithFormat:@"email=%@&paswoord=%@&paswoord2=%@",[_txtEmail text],[_txtWachtwoord text],[_txtWachtwoord2 text]];
             NSLog(@"PostData: %@",post);
             
             NSURL *url=[NSURL URLWithString:@"http://gandibleux.eu/PHP/jsoncreate.php"];
@@ -97,7 +104,7 @@
                 } else {
                     
                     NSString *error_msg = (NSString *) [jsonData objectForKey:@"error_message"];
-                    [self alertStatus:error_msg :@"Login Failed!"];
+                    [self alertStatus:error_msg :@"Register Failed!"];
                 }
                 
             } else {
