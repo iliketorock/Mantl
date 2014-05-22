@@ -5,19 +5,43 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
+<<<<<<< HEAD
 	<string>16025CE2-50C1-4A59-864C-EC779962C7ED</string>
+=======
+<<<<<<< HEAD
+	<string>7DB797A4-F878-473B-AD26-F87E588E947D</string>
+=======
+	<string>E0C91A95-7F4C-439F-97EB-5AE034B454A6</string>
+>>>>>>> FETCH_HEAD
+>>>>>>> FETCH_HEAD
 	<key>IDESourceControlProjectName</key>
 	<string>Mantl</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
+<<<<<<< HEAD
 		<key>DD5A734D-83A8-483E-BDE6-420F25FB7518</key>
+=======
+<<<<<<< HEAD
+		<key>F64917A5-8FBA-42A1-A2CA-21F6C1323364</key>
+=======
+		<key>78AF9126-51B2-4ABC-B742-DF3405D941C5</key>
+>>>>>>> FETCH_HEAD
+>>>>>>> FETCH_HEAD
 		<string>https://github.com/iliketorock/Mantl.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>Mantl.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
+<<<<<<< HEAD
 		<key>DD5A734D-83A8-483E-BDE6-420F25FB7518</key>
+=======
+<<<<<<< HEAD
+		<key>F64917A5-8FBA-42A1-A2CA-21F6C1323364</key>
+=======
+		<key>78AF9126-51B2-4ABC-B742-DF3405D941C5</key>
+>>>>>>> FETCH_HEAD
+>>>>>>> FETCH_HEAD
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
@@ -25,14 +49,30 @@
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
+<<<<<<< HEAD
 	<string>DD5A734D-83A8-483E-BDE6-420F25FB7518</string>
+=======
+<<<<<<< HEAD
+	<string>F64917A5-8FBA-42A1-A2CA-21F6C1323364</string>
+=======
+	<string>78AF9126-51B2-4ABC-B742-DF3405D941C5</string>
+>>>>>>> FETCH_HEAD
+>>>>>>> FETCH_HEAD
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
+<<<<<<< HEAD
 			<string>DD5A734D-83A8-483E-BDE6-420F25FB7518</string>
+=======
+<<<<<<< HEAD
+			<string>F64917A5-8FBA-42A1-A2CA-21F6C1323364</string>
+=======
+			<string>78AF9126-51B2-4ABC-B742-DF3405D941C5</string>
+>>>>>>> FETCH_HEAD
+>>>>>>> FETCH_HEAD
 			<key>IDESourceControlWCCName</key>
 			<string>Mantl</string>
 		</dict>
