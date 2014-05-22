@@ -1,18 +1,21 @@
 //
-//  DagboekTableViewController.m
+//  MijnVraagEnAntwoordTableViewController.m
 //  Mantl
 //
-//  Created by Brent Heynsmans on 20/05/14.
+//  Created by Sammi Fux on 22/05/14.
 //  Copyright (c) 2014 Mantelzorgers Groep 2. All rights reserved.
 //
 
-#import "DagboekTableViewController.h"
+#import "MijnVraagEnAntwoordTableViewController.h"
 
-@interface DagboekTableViewController ()
+@interface MijnVraagEnAntwoordTableViewController ()
+
+@property (nonatomic) NSArray* antwoorden;
 
 @end
 
-@implementation DagboekTableViewController
+@implementation MijnVraagEnAntwoordTableViewController
+#define UIColorFromRGB(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
 
 - (id)initWithStyle:(UITableViewStyle)style
 {
@@ -32,6 +35,8 @@
     
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+    
+    _antwoorden = [NSArray arrayWithObjects: @"In de supermarkt", @"In den Aldi", @"Mijn moestuintje", nil];
 }
 
 - (void)didReceiveMemoryWarning
@@ -40,30 +45,55 @@
     // Dispose of any resources that can be recreated.
 }
 
-#pragma mark - Table view data source
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
     // Return the number of sections.
-    return 0;
+    return 2;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    // Return the number of rows in the section.
-    return 0;
+    if (section == 0) {
+        return 1;
+    } else {
+        return _antwoorden.count;
+    }
 }
 
-/*
+- (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section
+{
+    if (section == 0) {
+        return @"Vraag";
+    } else {
+        return @"Antwoorden";
+    }
+}
+
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:<#@"reuseIdentifier"#> forIndexPath:indexPath];
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"MijnVraagEnAntwoord"];
+    if (cell == nil) {
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:@"MijnVraagEnAntwoord"];
+        cell.selectionStyle = UITableViewCellSelectionStyleNone;
+    }
     
-    // Configure the cell...
+    if (indexPath.section == 0) {
+        cell.textLabel.text = @"Waar kan ik spruiten kopen? En deze zin moet langer zijn dus maak ik ze ook wat langer. Just like my dick.";
+        [cell setBackgroundColor:UIColorFromRGB(0xE06025)];
+    } else {
+        NSString* currenttitle = [_antwoorden objectAtIndex:indexPath.row];
+        cell.textLabel.text = currenttitle;
+        if (indexPath.row % 2 == 0) {
+            [cell setBackgroundColor:UIColorFromRGB(0xFF935B)];
+        } else {
+            [cell.textLabel setTextColor:UIColorFromRGB(0xFF935B)];
+        }
+    }
     
     return cell;
 }
-*/
+
 
 /*
 // Override to support conditional editing of the table view.

@@ -39,13 +39,15 @@
 		A3F0F847192BF81E00BF87CE /* Instellingen-Zorgbehoevende.png in Resources */ = {isa = PBXBuildFile; fileRef = A3F0F844192BF81E00BF87CE /* Instellingen-Zorgbehoevende.png */; };
 		C03E351A192B86A00063895C /* DagboekTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C03E3519192B86A00063895C /* DagboekTableViewController.m */; };
 		C03E3520192C99D40063895C /* SchrijfViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C03E351F192C99D40063895C /* SchrijfViewController.m */; };
+		EE439A2C192E2B2B006860CC /* Mantl.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EE439A2A192E2B2B006860CC /* Mantl.xcdatamodeld */; };
+		EE439A2F192E2BD7006860CC /* MijnVraagEnAntwoordTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE439A2E192E2BD7006860CC /* MijnVraagEnAntwoordTableViewController.m */; };
+		EE439A32192E2C24006860CC /* Vraag.m in Sources */ = {isa = PBXBuildFile; fileRef = EE439A31192E2C24006860CC /* Vraag.m */; };
 		EE75229D19264408004EB594 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE75229C19264408004EB594 /* Foundation.framework */; };
 		EE75229F19264408004EB594 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE75229E19264408004EB594 /* CoreGraphics.framework */; };
 		EE7522A119264408004EB594 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE7522A019264408004EB594 /* UIKit.framework */; };
 		EE7522A319264408004EB594 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE7522A219264408004EB594 /* CoreData.framework */; };
 		EE7522A919264408004EB594 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EE7522A719264408004EB594 /* InfoPlist.strings */; };
 		EE7522AB19264408004EB594 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7522AA19264408004EB594 /* main.m */; };
-		EE7522B219264408004EB594 /* Mantl.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EE7522B019264408004EB594 /* Mantl.xcdatamodeld */; };
 		EE7522B419264408004EB594 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE7522B319264408004EB594 /* Images.xcassets */; };
 		EE7522BB19264408004EB594 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE7522BA19264408004EB594 /* XCTest.framework */; };
 		EE7522BC19264408004EB594 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE75229C19264408004EB594 /* Foundation.framework */; };
@@ -129,6 +131,11 @@
 		C03E3519192B86A00063895C /* DagboekTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DagboekTableViewController.m; sourceTree = "<group>"; };
 		C03E351E192C99D40063895C /* SchrijfViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SchrijfViewController.h; sourceTree = "<group>"; };
 		C03E351F192C99D40063895C /* SchrijfViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SchrijfViewController.m; sourceTree = "<group>"; };
+		EE439A2B192E2B2B006860CC /* Mantl.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Mantl.xcdatamodel; sourceTree = "<group>"; };
+		EE439A2D192E2BD7006860CC /* MijnVraagEnAntwoordTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MijnVraagEnAntwoordTableViewController.h; sourceTree = "<group>"; };
+		EE439A2E192E2BD7006860CC /* MijnVraagEnAntwoordTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MijnVraagEnAntwoordTableViewController.m; sourceTree = "<group>"; };
+		EE439A30192E2C24006860CC /* Vraag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vraag.h; sourceTree = "<group>"; };
+		EE439A31192E2C24006860CC /* Vraag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Vraag.m; sourceTree = "<group>"; };
 		EE75229919264408004EB594 /* Mantl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mantl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE75229C19264408004EB594 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		EE75229E19264408004EB594 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -138,7 +145,6 @@
 		EE7522A819264408004EB594 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		EE7522AA19264408004EB594 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EE7522AC19264408004EB594 /* Mantl-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Mantl-Prefix.pch"; sourceTree = "<group>"; };
-		EE7522B119264408004EB594 /* Mantl.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Mantl.xcdatamodel; sourceTree = "<group>"; };
 		EE7522B319264408004EB594 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		EE7522B919264408004EB594 /* MantlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MantlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE7522BA19264408004EB594 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -302,8 +308,12 @@
 				C03E351F192C99D40063895C /* SchrijfViewController.m */,
 				EEE53B42192C9AEE00607624 /* MijnVragenTableViewController.h */,
 				EEE53B43192C9AEE00607624 /* MijnVragenTableViewController.m */,
+				EE439A2D192E2BD7006860CC /* MijnVraagEnAntwoordTableViewController.h */,
+				EE439A2E192E2BD7006860CC /* MijnVraagEnAntwoordTableViewController.m */,
+				EE439A30192E2C24006860CC /* Vraag.h */,
+				EE439A31192E2C24006860CC /* Vraag.m */,
 				EE7522B319264408004EB594 /* Images.xcassets */,
-				EE7522B019264408004EB594 /* Mantl.xcdatamodeld */,
+				EE439A2A192E2B2B006860CC /* Mantl.xcdatamodeld */,
 				EEB594ED1927EAC20005444F /* images */,
 				EE7522A519264408004EB594 /* Supporting Files */,
 			);
@@ -470,11 +480,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C03E3520192C99D40063895C /* SchrijfViewController.m in Sources */,
-				EE7522B219264408004EB594 /* Mantl.xcdatamodeld in Sources */,
 				C03E351A192B86A00063895C /* DagboekTableViewController.m in Sources */,
 				184ACACF192B772A00CD35B1 /* SBJsonTokeniser.m in Sources */,
 				EEE53B45192C9AEE00607624 /* HomeScreenViewController.m in Sources */,
-				EE7522B219264408004EB594 /* Mantl.xcdatamodeld in Sources */,
 				82E6914E192E1C6A00DB93FC /* plaatsViewController.m in Sources */,
 				184ACACB192B772A00CD35B1 /* SBJsonStreamParserState.m in Sources */,
 				82E69150192E1C6A00DB93FC /* Home.m in Sources */,
@@ -486,6 +494,7 @@
 				184ACAC7192B772A00CD35B1 /* SBJsonParser.m in Sources */,
 				184ACAC6192B772A00CD35B1 /* NSObject+SBJson.m in Sources */,
 				184ACAD7192B986B00CD35B1 /* CreateAccountViewController.m in Sources */,
+				EE439A2F192E2BD7006860CC /* MijnVraagEnAntwoordTableViewController.m in Sources */,
 				184ACAD0192B772A00CD35B1 /* SBJsonUTF8Stream.m in Sources */,
 				EEE53B46192C9AEE00607624 /* MijnVragenTableViewController.m in Sources */,
 				82E6914F192E1C6A00DB93FC /* Plaats.m in Sources */,
@@ -495,7 +504,9 @@
 				184ACACE192B772A00CD35B1 /* SBJsonStreamWriterState.m in Sources */,
 				184ACAC8192B772A00CD35B1 /* SBJsonStreamParser.m in Sources */,
 				184ACACA192B772A00CD35B1 /* SBJsonStreamParserAdapter.m in Sources */,
+				EE439A2C192E2B2B006860CC /* Mantl.xcdatamodeld in Sources */,
 				EEE53B49192C9BAB00607624 /* AppDelegate.m in Sources */,
+				EE439A32192E2C24006860CC /* Vraag.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -706,14 +717,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		EE7522B019264408004EB594 /* Mantl.xcdatamodeld */ = {
+		EE439A2A192E2B2B006860CC /* Mantl.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				EE7522B119264408004EB594 /* Mantl.xcdatamodel */,
+				EE439A2B192E2B2B006860CC /* Mantl.xcdatamodel */,
 			);
-			currentVersion = EE7522B119264408004EB594 /* Mantl.xcdatamodel */;
+			currentVersion = EE439A2B192E2B2B006860CC /* Mantl.xcdatamodel */;
 			path = Mantl.xcdatamodeld;
-			sourceTree = "<group>";
+			sourceTree = SOURCE_ROOT;
 			versionGroupType = wrapper.xcdatamodel;
 		};
 /* End XCVersionGroup section */
