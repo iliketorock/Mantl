@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		82190764192DBA3000B689F4 /* plaatsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82190763192DBA3000B689F4 /* plaatsViewController.m */; };
+		82190767192DBE2C00B689F4 /* Plaats.m in Sources */ = {isa = PBXBuildFile; fileRef = 82190766192DBE2C00B689F4 /* Plaats.m */; };
+		8219076A192DBE3E00B689F4 /* Home.m in Sources */ = {isa = PBXBuildFile; fileRef = 82190769192DBE3E00B689F4 /* Home.m */; };
+		8219076C192DF5A400B689F4 /* monument.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8219076B192DF5A400B689F4 /* monument.jpg */; };
+		82190772192E017200B689F4 /* amusement.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8219076D192E017200B689F4 /* amusement.jpg */; };
+		82190773192E017200B689F4 /* museum.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8219076E192E017200B689F4 /* museum.jpg */; };
+		82190774192E017200B689F4 /* muziek.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8219076F192E017200B689F4 /* muziek.jpg */; };
+		82190775192E017200B689F4 /* natuur.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 82190770192E017200B689F4 /* natuur.jpg */; };
+		82190776192E017200B689F4 /* shopping.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 82190771192E017200B689F4 /* shopping.jpg */; };
+		82865779192E0FBC00BDF0A3 /* wc.png in Resources */ = {isa = PBXBuildFile; fileRef = 82865778192E0FBC00BDF0A3 /* wc.png */; };
+		82ECC66E192CA88800D890A1 /* list_pijl.png in Resources */ = {isa = PBXBuildFile; fileRef = 82ECC66D192CA88800D890A1 /* list_pijl.png */; };
 		EE75229D19264408004EB594 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE75229C19264408004EB594 /* Foundation.framework */; };
 		EE75229F19264408004EB594 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE75229E19264408004EB594 /* CoreGraphics.framework */; };
 		EE7522A119264408004EB594 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE7522A019264408004EB594 /* UIKit.framework */; };
@@ -42,12 +53,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		82190762192DBA3000B689F4 /* plaatsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = plaatsViewController.h; sourceTree = "<group>"; };
+		82190763192DBA3000B689F4 /* plaatsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = plaatsViewController.m; sourceTree = "<group>"; };
+		82190765192DBE2C00B689F4 /* Plaats.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Plaats.h; sourceTree = "<group>"; };
+		82190766192DBE2C00B689F4 /* Plaats.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Plaats.m; sourceTree = "<group>"; };
+		82190768192DBE3E00B689F4 /* Home.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Home.h; sourceTree = "<group>"; };
+		82190769192DBE3E00B689F4 /* Home.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Home.m; sourceTree = "<group>"; };
+		8219076B192DF5A400B689F4 /* monument.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = monument.jpg; path = ../../../../../Desktop/images_integration/soorten/monument.jpg; sourceTree = "<group>"; };
+		8219076D192E017200B689F4 /* amusement.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = amusement.jpg; path = ../../../../../Desktop/images_integration/soorten/amusement.jpg; sourceTree = "<group>"; };
+		8219076E192E017200B689F4 /* museum.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = museum.jpg; path = ../../../../../Desktop/images_integration/soorten/museum.jpg; sourceTree = "<group>"; };
+		8219076F192E017200B689F4 /* muziek.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = muziek.jpg; path = ../../../../../Desktop/images_integration/soorten/muziek.jpg; sourceTree = "<group>"; };
+		82190770192E017200B689F4 /* natuur.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = natuur.jpg; path = ../../../../../Desktop/images_integration/soorten/natuur.jpg; sourceTree = "<group>"; };
+		82190771192E017200B689F4 /* shopping.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = shopping.jpg; path = ../../../../../Desktop/images_integration/soorten/shopping.jpg; sourceTree = "<group>"; };
+		82865778192E0FBC00BDF0A3 /* wc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = wc.png; path = ../../../../../Desktop/images_integration/voorzieningen/wc.png; sourceTree = "<group>"; };
+		82ECC66D192CA88800D890A1 /* list_pijl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = list_pijl.png; path = ../../../../../Desktop/images_integration/list_pijl.png; sourceTree = "<group>"; };
 		EE75229919264408004EB594 /* Mantl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mantl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE75229C19264408004EB594 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		EE75229E19264408004EB594 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		EE7522A019264408004EB594 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		EE7522A219264408004EB594 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		EE7522A619264408004EB594 /* Mantl-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Mantl-Info.plist"; sourceTree = "<group>"; };
 		EE7522A819264408004EB594 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		EE7522AA19264408004EB594 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EE7522AC19264408004EB594 /* Mantl-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Mantl-Prefix.pch"; sourceTree = "<group>"; };
@@ -96,6 +120,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		82879C42192B4AFF00F92DC2 /* Op Stap */ = {
+			isa = PBXGroup;
+			children = (
+				82ECC66F192CA89300D890A1 /* images */,
+				82190762192DBA3000B689F4 /* plaatsViewController.h */,
+				82190763192DBA3000B689F4 /* plaatsViewController.m */,
+				82190765192DBE2C00B689F4 /* Plaats.h */,
+				82190766192DBE2C00B689F4 /* Plaats.m */,
+				82190768192DBE3E00B689F4 /* Home.h */,
+				82190769192DBE3E00B689F4 /* Home.m */,
+			);
+			name = "Op Stap";
+			sourceTree = "<group>";
+		};
+		82ECC66F192CA89300D890A1 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				82865778192E0FBC00BDF0A3 /* wc.png */,
+				8219076D192E017200B689F4 /* amusement.jpg */,
+				8219076E192E017200B689F4 /* museum.jpg */,
+				8219076F192E017200B689F4 /* muziek.jpg */,
+				82190770192E017200B689F4 /* natuur.jpg */,
+				82190771192E017200B689F4 /* shopping.jpg */,
+				8219076B192DF5A400B689F4 /* monument.jpg */,
+				82ECC66D192CA88800D890A1 /* list_pijl.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
 		EE75229019264408004EB594 = {
 			isa = PBXGroup;
 			children = (
@@ -130,6 +183,7 @@
 		EE7522A419264408004EB594 /* Mantl */ = {
 			isa = PBXGroup;
 			children = (
+				82879C42192B4AFF00F92DC2 /* Op Stap */,
 				EEB594E91927D19F0005444F /* Storyboard.storyboard */,
 				EE7522AD19264408004EB594 /* AppDelegate.h */,
 				EE7522AE19264408004EB594 /* AppDelegate.m */,
@@ -146,7 +200,6 @@
 		EE7522A519264408004EB594 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				EE7522A619264408004EB594 /* Mantl-Info.plist */,
 				EE7522A719264408004EB594 /* InfoPlist.strings */,
 				EE7522AA19264408004EB594 /* main.m */,
 				EE7522AC19264408004EB594 /* Mantl-Prefix.pch */,
@@ -261,11 +314,19 @@
 			files = (
 				EEA226A1192B44D4004628FC /* homescreen_button-04.png in Resources */,
 				EEA2269F192B44D4004628FC /* homescreen_button-02.png in Resources */,
+				82190772192E017200B689F4 /* amusement.jpg in Resources */,
+				82865779192E0FBC00BDF0A3 /* wc.png in Resources */,
+				8219076C192DF5A400B689F4 /* monument.jpg in Resources */,
+				82190775192E017200B689F4 /* natuur.jpg in Resources */,
 				EE7522A919264408004EB594 /* InfoPlist.strings in Resources */,
+				82190774192E017200B689F4 /* muziek.jpg in Resources */,
 				EEA226A0192B44D4004628FC /* homescreen_button-03.png in Resources */,
+				82ECC66E192CA88800D890A1 /* list_pijl.png in Resources */,
 				EE7522B419264408004EB594 /* Images.xcassets in Resources */,
 				EEA2269E192B44D4004628FC /* homescreen_button-01.png in Resources */,
+				82190773192E017200B689F4 /* museum.jpg in Resources */,
 				EEB594EA1927D19F0005444F /* Storyboard.storyboard in Resources */,
+				82190776192E017200B689F4 /* shopping.jpg in Resources */,
 				EEB594EC1927EAB80005444F /* homescreen_mantl.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,9 +346,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82190767192DBE2C00B689F4 /* Plaats.m in Sources */,
 				EE7522B219264408004EB594 /* Mantl.xcdatamodeld in Sources */,
 				EEB594F01927F3B10005444F /* HomeScreenViewController.m in Sources */,
 				EE7522AF19264408004EB594 /* AppDelegate.m in Sources */,
+				8219076A192DBE3E00B689F4 /* Home.m in Sources */,
+				82190764192DBA3000B689F4 /* plaatsViewController.m in Sources */,
 				EE7522AB19264408004EB594 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
