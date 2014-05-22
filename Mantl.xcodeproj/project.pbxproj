@@ -290,9 +290,8 @@
 				EEB594E91927D19F0005444F /* Storyboard.storyboard */,
 				EEE53B47192C9BAB00607624 /* AppDelegate.h */,
 				EEE53B48192C9BAB00607624 /* AppDelegate.m */,
-				EEE53B40192C9AEE00607624 /* HomeScreenViewController.h */,
-				EEE53B41192C9AEE00607624 /* HomeScreenViewController.m */,
 				EEC1A6CC192E4EF200BA12DB /* Log-In */,
+				EEC1A6CE192E4F8C00BA12DB /* Homescreen */,
 				EEC1A6CD192E4F0800BA12DB /* Dagboek */,
 				82E69138192E1C2300DB93FC /* Op Stap */,
 				EEC1A6CB192E4ECF00BA12DB /* Vragen en Antwoorden */,
@@ -388,6 +387,15 @@
 				C03E351F192C99D40063895C /* SchrijfViewController.m */,
 			);
 			name = Dagboek;
+			sourceTree = "<group>";
+		};
+		EEC1A6CE192E4F8C00BA12DB /* Homescreen */ = {
+			isa = PBXGroup;
+			children = (
+				EEE53B40192C9AEE00607624 /* HomeScreenViewController.h */,
+				EEE53B41192C9AEE00607624 /* HomeScreenViewController.m */,
+			);
+			name = Homescreen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
