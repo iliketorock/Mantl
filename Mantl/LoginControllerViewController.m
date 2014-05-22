@@ -86,7 +86,6 @@
                 NSDictionary *jsonData = (NSDictionary *) [jsonParser objectWithString:responseData error:nil];
                 NSLog(@"%@",jsonData);
                 NSInteger success = [(NSNumber *) [jsonData objectForKey:@"success"] integerValue];
-
                 NSLog(@"%d",success);
                 if(success == 1)
                 {
