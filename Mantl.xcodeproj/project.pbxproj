@@ -7,13 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A31796CA192CA8AB00B4F0B7 /* Tips.png in Resources */ = {isa = PBXBuildFile; fileRef = A31796C9192CA8AB00B4F0B7 /* Tips.png */; };
-		A3F0F841192B8E1000BF87CE /* homescreen_button-Instellingen.png in Resources */ = {isa = PBXBuildFile; fileRef = A3F0F840192B8E1000BF87CE /* homescreen_button-Instellingen.png */; };
-		A3F0F845192BF81E00BF87CE /* Instellingen-Instellingen.png in Resources */ = {isa = PBXBuildFile; fileRef = A3F0F842192BF81E00BF87CE /* Instellingen-Instellingen.png */; };
-		A3F0F846192BF81E00BF87CE /* Instellingen-Mantelzorger.png in Resources */ = {isa = PBXBuildFile; fileRef = A3F0F843192BF81E00BF87CE /* Instellingen-Mantelzorger.png */; };
-		A3F0F847192BF81E00BF87CE /* Instellingen-Zorgbehoevende.png in Resources */ = {isa = PBXBuildFile; fileRef = A3F0F844192BF81E00BF87CE /* Instellingen-Zorgbehoevende.png */; };
-		EE09B6B7192B4DF200BA8610 /* AlleVragenTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE09B6B6192B4DF200BA8610 /* AlleVragenTableViewController.m */; };
-		EE09B6BA192B4E1000BA8610 /* MijnVragenTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE09B6B9192B4E1000BA8610 /* MijnVragenTableViewController.m */; };
 		184ACAAB192B720100CD35B1 /* LoginControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 184ACAAA192B720100CD35B1 /* LoginControllerViewController.m */; };
 		184ACAC6192B772A00CD35B1 /* NSObject+SBJson.m in Sources */ = {isa = PBXBuildFile; fileRef = 184ACAAE192B772A00CD35B1 /* NSObject+SBJson.m */; };
 		184ACAC7192B772A00CD35B1 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 184ACAB1192B772A00CD35B1 /* SBJsonParser.m */; };
@@ -29,6 +22,21 @@
 		184ACAD1192B772A00CD35B1 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 184ACAC5192B772A00CD35B1 /* SBJsonWriter.m */; };
 		184ACAD7192B986B00CD35B1 /* CreateAccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 184ACAD6192B986B00CD35B1 /* CreateAccountViewController.m */; };
 		186835B2192BDA7700A48FE3 /* ForgetPasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 186835B1192BDA7700A48FE3 /* ForgetPasswordViewController.m */; };
+		82E69140192E1C4500DB93FC /* amusement.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 82E6913A192E1C4500DB93FC /* amusement.jpg */; };
+		82E69141192E1C4500DB93FC /* monument.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 82E6913B192E1C4500DB93FC /* monument.jpg */; };
+		82E69142192E1C4500DB93FC /* museum.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 82E6913C192E1C4500DB93FC /* museum.jpg */; };
+		82E69143192E1C4500DB93FC /* muziek.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 82E6913D192E1C4500DB93FC /* muziek.jpg */; };
+		82E69144192E1C4500DB93FC /* natuur.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 82E6913E192E1C4500DB93FC /* natuur.jpg */; };
+		82E69145192E1C4500DB93FC /* shopping.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 82E6913F192E1C4500DB93FC /* shopping.jpg */; };
+		82E69147192E1C4E00DB93FC /* wc.png in Resources */ = {isa = PBXBuildFile; fileRef = 82E69146192E1C4E00DB93FC /* wc.png */; };
+		82E6914E192E1C6A00DB93FC /* plaatsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82E69149192E1C6A00DB93FC /* plaatsViewController.m */; };
+		82E6914F192E1C6A00DB93FC /* Plaats.m in Sources */ = {isa = PBXBuildFile; fileRef = 82E6914B192E1C6A00DB93FC /* Plaats.m */; };
+		82E69150192E1C6A00DB93FC /* Home.m in Sources */ = {isa = PBXBuildFile; fileRef = 82E6914D192E1C6A00DB93FC /* Home.m */; };
+		A31796CA192CA8AB00B4F0B7 /* Tips.png in Resources */ = {isa = PBXBuildFile; fileRef = A31796C9192CA8AB00B4F0B7 /* Tips.png */; };
+		A3F0F841192B8E1000BF87CE /* homescreen_button-Instellingen.png in Resources */ = {isa = PBXBuildFile; fileRef = A3F0F840192B8E1000BF87CE /* homescreen_button-Instellingen.png */; };
+		A3F0F845192BF81E00BF87CE /* Instellingen-Instellingen.png in Resources */ = {isa = PBXBuildFile; fileRef = A3F0F842192BF81E00BF87CE /* Instellingen-Instellingen.png */; };
+		A3F0F846192BF81E00BF87CE /* Instellingen-Mantelzorger.png in Resources */ = {isa = PBXBuildFile; fileRef = A3F0F843192BF81E00BF87CE /* Instellingen-Mantelzorger.png */; };
+		A3F0F847192BF81E00BF87CE /* Instellingen-Zorgbehoevende.png in Resources */ = {isa = PBXBuildFile; fileRef = A3F0F844192BF81E00BF87CE /* Instellingen-Zorgbehoevende.png */; };
 		C03E351A192B86A00063895C /* DagboekTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C03E3519192B86A00063895C /* DagboekTableViewController.m */; };
 		C03E3520192C99D40063895C /* SchrijfViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C03E351F192C99D40063895C /* SchrijfViewController.m */; };
 		EE75229D19264408004EB594 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE75229C19264408004EB594 /* Foundation.framework */; };
@@ -68,15 +76,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A31796C9192CA8AB00B4F0B7 /* Tips.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tips.png; sourceTree = "<group>"; };
-		A3F0F840192B8E1000BF87CE /* homescreen_button-Instellingen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "homescreen_button-Instellingen.png"; sourceTree = "<group>"; };
-		A3F0F842192BF81E00BF87CE /* Instellingen-Instellingen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Instellingen-Instellingen.png"; sourceTree = "<group>"; };
-		A3F0F843192BF81E00BF87CE /* Instellingen-Mantelzorger.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Instellingen-Mantelzorger.png"; sourceTree = "<group>"; };
-		A3F0F844192BF81E00BF87CE /* Instellingen-Zorgbehoevende.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Instellingen-Zorgbehoevende.png"; sourceTree = "<group>"; };
-		EE09B6B5192B4DF200BA8610 /* AlleVragenTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlleVragenTableViewController.h; sourceTree = "<group>"; };
-		EE09B6B6192B4DF200BA8610 /* AlleVragenTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlleVragenTableViewController.m; sourceTree = "<group>"; };
-		EE09B6B8192B4E1000BA8610 /* MijnVragenTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MijnVragenTableViewController.h; sourceTree = "<group>"; };
-		EE09B6B9192B4E1000BA8610 /* MijnVragenTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MijnVragenTableViewController.m; sourceTree = "<group>"; };
 		184ACAA9192B720100CD35B1 /* LoginControllerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginControllerViewController.h; sourceTree = "<group>"; };
 		184ACAAA192B720100CD35B1 /* LoginControllerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginControllerViewController.m; sourceTree = "<group>"; };
 		184ACAAD192B772A00CD35B1 /* NSObject+SBJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJson.h"; sourceTree = "<group>"; };
@@ -108,6 +107,24 @@
 		184ACAD6192B986B00CD35B1 /* CreateAccountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateAccountViewController.m; sourceTree = "<group>"; };
 		186835B0192BDA7700A48FE3 /* ForgetPasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForgetPasswordViewController.h; sourceTree = "<group>"; };
 		186835B1192BDA7700A48FE3 /* ForgetPasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForgetPasswordViewController.m; sourceTree = "<group>"; };
+		82E6913A192E1C4500DB93FC /* amusement.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = amusement.jpg; sourceTree = "<group>"; };
+		82E6913B192E1C4500DB93FC /* monument.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = monument.jpg; sourceTree = "<group>"; };
+		82E6913C192E1C4500DB93FC /* museum.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = museum.jpg; sourceTree = "<group>"; };
+		82E6913D192E1C4500DB93FC /* muziek.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = muziek.jpg; sourceTree = "<group>"; };
+		82E6913E192E1C4500DB93FC /* natuur.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = natuur.jpg; sourceTree = "<group>"; };
+		82E6913F192E1C4500DB93FC /* shopping.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shopping.jpg; sourceTree = "<group>"; };
+		82E69146192E1C4E00DB93FC /* wc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wc.png; sourceTree = "<group>"; };
+		82E69148192E1C6A00DB93FC /* plaatsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = plaatsViewController.h; sourceTree = "<group>"; };
+		82E69149192E1C6A00DB93FC /* plaatsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = plaatsViewController.m; sourceTree = "<group>"; };
+		82E6914A192E1C6A00DB93FC /* Plaats.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Plaats.h; sourceTree = "<group>"; };
+		82E6914B192E1C6A00DB93FC /* Plaats.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Plaats.m; sourceTree = "<group>"; };
+		82E6914C192E1C6A00DB93FC /* Home.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Home.h; sourceTree = "<group>"; };
+		82E6914D192E1C6A00DB93FC /* Home.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Home.m; sourceTree = "<group>"; };
+		A31796C9192CA8AB00B4F0B7 /* Tips.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tips.png; sourceTree = "<group>"; };
+		A3F0F840192B8E1000BF87CE /* homescreen_button-Instellingen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "homescreen_button-Instellingen.png"; sourceTree = "<group>"; };
+		A3F0F842192BF81E00BF87CE /* Instellingen-Instellingen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Instellingen-Instellingen.png"; sourceTree = "<group>"; };
+		A3F0F843192BF81E00BF87CE /* Instellingen-Mantelzorger.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Instellingen-Mantelzorger.png"; sourceTree = "<group>"; };
+		A3F0F844192BF81E00BF87CE /* Instellingen-Zorgbehoevende.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Instellingen-Zorgbehoevende.png"; sourceTree = "<group>"; };
 		C03E3518192B86A00063895C /* DagboekTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DagboekTableViewController.h; sourceTree = "<group>"; };
 		C03E3519192B86A00063895C /* DagboekTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DagboekTableViewController.m; sourceTree = "<group>"; };
 		C03E351E192C99D40063895C /* SchrijfViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SchrijfViewController.h; sourceTree = "<group>"; };
@@ -202,6 +219,34 @@
 			name = JSON;
 			sourceTree = "<group>";
 		};
+		82E69138192E1C2300DB93FC /* Op Stap */ = {
+			isa = PBXGroup;
+			children = (
+				82E69148192E1C6A00DB93FC /* plaatsViewController.h */,
+				82E69149192E1C6A00DB93FC /* plaatsViewController.m */,
+				82E6914A192E1C6A00DB93FC /* Plaats.h */,
+				82E6914B192E1C6A00DB93FC /* Plaats.m */,
+				82E6914C192E1C6A00DB93FC /* Home.h */,
+				82E6914D192E1C6A00DB93FC /* Home.m */,
+				82E69139192E1C2F00DB93FC /* images */,
+			);
+			name = "Op Stap";
+			sourceTree = "<group>";
+		};
+		82E69139192E1C2F00DB93FC /* images */ = {
+			isa = PBXGroup;
+			children = (
+				82E69146192E1C4E00DB93FC /* wc.png */,
+				82E6913A192E1C4500DB93FC /* amusement.jpg */,
+				82E6913B192E1C4500DB93FC /* monument.jpg */,
+				82E6913C192E1C4500DB93FC /* museum.jpg */,
+				82E6913D192E1C4500DB93FC /* muziek.jpg */,
+				82E6913E192E1C4500DB93FC /* natuur.jpg */,
+				82E6913F192E1C4500DB93FC /* shopping.jpg */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
 		EE75229019264408004EB594 = {
 			isa = PBXGroup;
 			children = (
@@ -236,6 +281,7 @@
 		EE7522A419264408004EB594 /* Mantl */ = {
 			isa = PBXGroup;
 			children = (
+				82E69138192E1C2300DB93FC /* Op Stap */,
 				EEB594E91927D19F0005444F /* Storyboard.storyboard */,
 				EEE53B47192C9BAB00607624 /* AppDelegate.h */,
 				EEE53B48192C9BAB00607624 /* AppDelegate.m */,
@@ -390,12 +436,19 @@
 				A3F0F847192BF81E00BF87CE /* Instellingen-Zorgbehoevende.png in Resources */,
 				EEA2269F192B44D4004628FC /* homescreen_button-02.png in Resources */,
 				EE7522A919264408004EB594 /* InfoPlist.strings in Resources */,
+				82E69142192E1C4500DB93FC /* museum.jpg in Resources */,
 				EEA226A0192B44D4004628FC /* homescreen_button-03.png in Resources */,
+				82E69145192E1C4500DB93FC /* shopping.jpg in Resources */,
 				EE7522B419264408004EB594 /* Images.xcassets in Resources */,
 				EEA2269E192B44D4004628FC /* homescreen_button-01.png in Resources */,
 				A3F0F841192B8E1000BF87CE /* homescreen_button-Instellingen.png in Resources */,
 				EEB594EA1927D19F0005444F /* Storyboard.storyboard in Resources */,
 				EEB594EC1927EAB80005444F /* homescreen_mantl.png in Resources */,
+				82E69140192E1C4500DB93FC /* amusement.jpg in Resources */,
+				82E69141192E1C4500DB93FC /* monument.jpg in Resources */,
+				82E69147192E1C4E00DB93FC /* wc.png in Resources */,
+				82E69144192E1C4500DB93FC /* natuur.jpg in Resources */,
+				82E69143192E1C4500DB93FC /* muziek.jpg in Resources */,
 				A31796CA192CA8AB00B4F0B7 /* Tips.png in Resources */,
 				A3F0F845192BF81E00BF87CE /* Instellingen-Instellingen.png in Resources */,
 			);
@@ -422,7 +475,9 @@
 				184ACACF192B772A00CD35B1 /* SBJsonTokeniser.m in Sources */,
 				EEE53B45192C9AEE00607624 /* HomeScreenViewController.m in Sources */,
 				EE7522B219264408004EB594 /* Mantl.xcdatamodeld in Sources */,
+				82E6914E192E1C6A00DB93FC /* plaatsViewController.m in Sources */,
 				184ACACB192B772A00CD35B1 /* SBJsonStreamParserState.m in Sources */,
+				82E69150192E1C6A00DB93FC /* Home.m in Sources */,
 				186835B2192BDA7700A48FE3 /* ForgetPasswordViewController.m in Sources */,
 				EE7522AB19264408004EB594 /* main.m in Sources */,
 				184ACAD1192B772A00CD35B1 /* SBJsonWriter.m in Sources */,
@@ -433,6 +488,7 @@
 				184ACAD7192B986B00CD35B1 /* CreateAccountViewController.m in Sources */,
 				184ACAD0192B772A00CD35B1 /* SBJsonUTF8Stream.m in Sources */,
 				EEE53B46192C9AEE00607624 /* MijnVragenTableViewController.m in Sources */,
+				82E6914F192E1C6A00DB93FC /* Plaats.m in Sources */,
 				184ACACD192B772A00CD35B1 /* SBJsonStreamWriterAccumulator.m in Sources */,
 				EEE53B44192C9AEE00607624 /* AlleVragenTableViewController.m in Sources */,
 				184ACACC192B772A00CD35B1 /* SBJsonStreamWriter.m in Sources */,
