@@ -268,6 +268,8 @@
 		C0EF5FF2192F35E500878E6B /* Dagboek */ = {
 			isa = PBXGroup;
 			children = (
+				C03E3518192B86A00063895C /* DagboekTableViewController.h */,
+				C03E3519192B86A00063895C /* DagboekTableViewController.m */,
 				C06B6F16192F3A9D00DA64D5 /* SchrijfViewController.h */,
 				C06B6F17192F3A9D00DA64D5 /* SchrijfViewController.m */,
 				C0EF5FF3192F36C000878E6B /* DetailDagboekViewController.h */,
@@ -280,6 +282,43 @@
 				C0EF5FFA192F36C000878E6B /* Diary.m */,
 			);
 			name = Dagboek;
+			sourceTree = "<group>";
+		};
+		EE5ABA57192F8242008DE541 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				184ACAD5192B986B00CD35B1 /* CreateAccountViewController.h */,
+				184ACAD6192B986B00CD35B1 /* CreateAccountViewController.m */,
+				186835B0192BDA7700A48FE3 /* ForgetPasswordViewController.h */,
+				186835B1192BDA7700A48FE3 /* ForgetPasswordViewController.m */,
+				184ACAA9192B720100CD35B1 /* LoginControllerViewController.h */,
+				184ACAAA192B720100CD35B1 /* LoginControllerViewController.m */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		EE5ABA58192F826C008DE541 /* Vragen en Antwoorden */ = {
+			isa = PBXGroup;
+			children = (
+				EEE53B3E192C9AEE00607624 /* AlleVragenTableViewController.h */,
+				EEE53B3F192C9AEE00607624 /* AlleVragenTableViewController.m */,
+				EEE53B42192C9AEE00607624 /* MijnVragenTableViewController.h */,
+				EEE53B43192C9AEE00607624 /* MijnVragenTableViewController.m */,
+				EE439A2D192E2BD7006860CC /* MijnVraagEnAntwoordTableViewController.h */,
+				EE439A2E192E2BD7006860CC /* MijnVraagEnAntwoordTableViewController.m */,
+				EE439A30192E2C24006860CC /* Vraag.h */,
+				EE439A31192E2C24006860CC /* Vraag.m */,
+			);
+			name = "Vragen en Antwoorden";
+			sourceTree = "<group>";
+		};
+		EE5ABA59192F827F008DE541 /* Homescreen */ = {
+			isa = PBXGroup;
+			children = (
+				EEE53B40192C9AEE00607624 /* HomeScreenViewController.h */,
+				EEE53B41192C9AEE00607624 /* HomeScreenViewController.m */,
+			);
+			name = Homescreen;
 			sourceTree = "<group>";
 		};
 		EE75229019264408004EB594 = {
@@ -316,30 +355,15 @@
 		EE7522A419264408004EB594 /* Mantl */ = {
 			isa = PBXGroup;
 			children = (
-				C0EF5FF2192F35E500878E6B /* Dagboek */,
-				82E69138192E1C2300DB93FC /* Op Stap */,
 				EEB594E91927D19F0005444F /* Storyboard.storyboard */,
 				EEE53B47192C9BAB00607624 /* AppDelegate.h */,
 				EEE53B48192C9BAB00607624 /* AppDelegate.m */,
 				184ACAAC192B766E00CD35B1 /* JSON */,
-				184ACAD5192B986B00CD35B1 /* CreateAccountViewController.h */,
-				184ACAD6192B986B00CD35B1 /* CreateAccountViewController.m */,
-				186835B0192BDA7700A48FE3 /* ForgetPasswordViewController.h */,
-				186835B1192BDA7700A48FE3 /* ForgetPasswordViewController.m */,
-				184ACAA9192B720100CD35B1 /* LoginControllerViewController.h */,
-				184ACAAA192B720100CD35B1 /* LoginControllerViewController.m */,
-				EEE53B3E192C9AEE00607624 /* AlleVragenTableViewController.h */,
-				EEE53B3F192C9AEE00607624 /* AlleVragenTableViewController.m */,
-				EEE53B40192C9AEE00607624 /* HomeScreenViewController.h */,
-				EEE53B41192C9AEE00607624 /* HomeScreenViewController.m */,
-				C03E3518192B86A00063895C /* DagboekTableViewController.h */,
-				C03E3519192B86A00063895C /* DagboekTableViewController.m */,
-				EEE53B42192C9AEE00607624 /* MijnVragenTableViewController.h */,
-				EEE53B43192C9AEE00607624 /* MijnVragenTableViewController.m */,
-				EE439A2D192E2BD7006860CC /* MijnVraagEnAntwoordTableViewController.h */,
-				EE439A2E192E2BD7006860CC /* MijnVraagEnAntwoordTableViewController.m */,
-				EE439A30192E2C24006860CC /* Vraag.h */,
-				EE439A31192E2C24006860CC /* Vraag.m */,
+				EE5ABA57192F8242008DE541 /* Login */,
+				EE5ABA59192F827F008DE541 /* Homescreen */,
+				C0EF5FF2192F35E500878E6B /* Dagboek */,
+				82E69138192E1C2300DB93FC /* Op Stap */,
+				EE5ABA58192F826C008DE541 /* Vragen en Antwoorden */,
 				EE7522B319264408004EB594 /* Images.xcassets */,
 				EE439A2A192E2B2B006860CC /* Mantl.xcdatamodeld */,
 				EEB594ED1927EAC20005444F /* images */,
