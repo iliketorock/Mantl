@@ -19,7 +19,6 @@
 @implementation plaatsViewController
 
 
-
 - (void)viewDidLoad
 {
     [super viewDidLoad];
@@ -91,14 +90,48 @@
     UIImageView *plaatsImg = (UIImageView *)[myCell viewWithTag:3];
     plaatsImg.image = [UIImage imageNamed:linkImg];
     
-    //VOORZIENINGEN
+    //VOORZIENINGEN EN RATING
+    
+    int rating = 0;
+    
     UIImageView *plaatsWc = (UIImageView *)[myCell viewWithTag:101];
-    
-    
     if ( [item.wc  isEqual: @"ja"])
     {
-        plaatsWc.image = [UIImage imageNamed:@"wc.jpg"];
+        plaatsWc.image = [UIImage imageNamed:@"wc.png"];
+        rating += 1;
     }
+    
+    UIImageView *plaatsParking = (UIImageView *)[myCell viewWithTag:102];
+    if ( [item.parking  isEqual: @"ja"])
+    {
+        plaatsParking.image = [UIImage imageNamed:@"parking.png"];
+        rating += 1;
+    }
+    
+    UIImageView *plaatsRolstoel = (UIImageView *)[myCell viewWithTag:103];
+    if ( [item.rolstoel  isEqual: @"ja"])
+    {
+        plaatsRolstoel.image = [UIImage imageNamed:@"rolstoel.png"];
+        rating += 1;
+    }
+    
+    UIImageView *plaatsEten = (UIImageView *)[myCell viewWithTag:104];
+    if ( [item.eten  isEqual: @"ja"])
+    {
+        plaatsEten.image = [UIImage imageNamed:@"eten.png"];
+        rating += 1;
+    }
+    
+    UIImageView *plaatsDrinken = (UIImageView *)[myCell viewWithTag:105];
+    if ( [item.drinken  isEqual: @"ja"])
+    {
+        plaatsDrinken.image = [UIImage imageNamed:@"drinken.png"];
+        rating += 1;
+    }
+    
+    
+    //RATING
+    NSLog(@"%i", rating);
    
     
     

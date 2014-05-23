@@ -22,16 +22,20 @@
 		184ACAD1192B772A00CD35B1 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 184ACAC5192B772A00CD35B1 /* SBJsonWriter.m */; };
 		184ACAD7192B986B00CD35B1 /* CreateAccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 184ACAD6192B986B00CD35B1 /* CreateAccountViewController.m */; };
 		186835B2192BDA7700A48FE3 /* ForgetPasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 186835B1192BDA7700A48FE3 /* ForgetPasswordViewController.m */; };
-		82E69140192E1C4500DB93FC /* amusement.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 82E6913A192E1C4500DB93FC /* amusement.jpg */; };
-		82E69141192E1C4500DB93FC /* monument.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 82E6913B192E1C4500DB93FC /* monument.jpg */; };
-		82E69142192E1C4500DB93FC /* museum.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 82E6913C192E1C4500DB93FC /* museum.jpg */; };
-		82E69143192E1C4500DB93FC /* muziek.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 82E6913D192E1C4500DB93FC /* muziek.jpg */; };
-		82E69144192E1C4500DB93FC /* natuur.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 82E6913E192E1C4500DB93FC /* natuur.jpg */; };
-		82E69145192E1C4500DB93FC /* shopping.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 82E6913F192E1C4500DB93FC /* shopping.jpg */; };
-		82E69147192E1C4E00DB93FC /* wc.png in Resources */ = {isa = PBXBuildFile; fileRef = 82E69146192E1C4E00DB93FC /* wc.png */; };
 		82E6914E192E1C6A00DB93FC /* plaatsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82E69149192E1C6A00DB93FC /* plaatsViewController.m */; };
 		82E6914F192E1C6A00DB93FC /* Plaats.m in Sources */ = {isa = PBXBuildFile; fileRef = 82E6914B192E1C6A00DB93FC /* Plaats.m */; };
 		82E69150192E1C6A00DB93FC /* Home.m in Sources */ = {isa = PBXBuildFile; fileRef = 82E6914D192E1C6A00DB93FC /* Home.m */; };
+		82E69161192E20DA00DB93FC /* amusement.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 82E69155192E20DA00DB93FC /* amusement.jpg */; };
+		82E69162192E20DA00DB93FC /* monument.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 82E69156192E20DA00DB93FC /* monument.jpg */; };
+		82E69163192E20DA00DB93FC /* museum.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 82E69157192E20DA00DB93FC /* museum.jpg */; };
+		82E69164192E20DA00DB93FC /* muziek.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 82E69158192E20DA00DB93FC /* muziek.jpg */; };
+		82E69165192E20DA00DB93FC /* natuur.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 82E69159192E20DA00DB93FC /* natuur.jpg */; };
+		82E69166192E20DA00DB93FC /* shopping.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 82E6915A192E20DA00DB93FC /* shopping.jpg */; };
+		82E69167192E20DA00DB93FC /* drinken.png in Resources */ = {isa = PBXBuildFile; fileRef = 82E6915C192E20DA00DB93FC /* drinken.png */; };
+		82E69168192E20DA00DB93FC /* eten.png in Resources */ = {isa = PBXBuildFile; fileRef = 82E6915D192E20DA00DB93FC /* eten.png */; };
+		82E69169192E20DA00DB93FC /* parking.png in Resources */ = {isa = PBXBuildFile; fileRef = 82E6915E192E20DA00DB93FC /* parking.png */; };
+		82E6916A192E20DA00DB93FC /* rolstoel.png in Resources */ = {isa = PBXBuildFile; fileRef = 82E6915F192E20DA00DB93FC /* rolstoel.png */; };
+		82E6916B192E20DA00DB93FC /* wc.png in Resources */ = {isa = PBXBuildFile; fileRef = 82E69160192E20DA00DB93FC /* wc.png */; };
 		A31796CA192CA8AB00B4F0B7 /* Tips.png in Resources */ = {isa = PBXBuildFile; fileRef = A31796C9192CA8AB00B4F0B7 /* Tips.png */; };
 		A3F0F841192B8E1000BF87CE /* homescreen_button-Instellingen.png in Resources */ = {isa = PBXBuildFile; fileRef = A3F0F840192B8E1000BF87CE /* homescreen_button-Instellingen.png */; };
 		A3F0F845192BF81E00BF87CE /* Instellingen-Instellingen.png in Resources */ = {isa = PBXBuildFile; fileRef = A3F0F842192BF81E00BF87CE /* Instellingen-Instellingen.png */; };
@@ -107,19 +111,23 @@
 		184ACAD6192B986B00CD35B1 /* CreateAccountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateAccountViewController.m; sourceTree = "<group>"; };
 		186835B0192BDA7700A48FE3 /* ForgetPasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForgetPasswordViewController.h; sourceTree = "<group>"; };
 		186835B1192BDA7700A48FE3 /* ForgetPasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForgetPasswordViewController.m; sourceTree = "<group>"; };
-		82E6913A192E1C4500DB93FC /* amusement.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = amusement.jpg; sourceTree = "<group>"; };
-		82E6913B192E1C4500DB93FC /* monument.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = monument.jpg; sourceTree = "<group>"; };
-		82E6913C192E1C4500DB93FC /* museum.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = museum.jpg; sourceTree = "<group>"; };
-		82E6913D192E1C4500DB93FC /* muziek.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = muziek.jpg; sourceTree = "<group>"; };
-		82E6913E192E1C4500DB93FC /* natuur.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = natuur.jpg; sourceTree = "<group>"; };
-		82E6913F192E1C4500DB93FC /* shopping.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shopping.jpg; sourceTree = "<group>"; };
-		82E69146192E1C4E00DB93FC /* wc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wc.png; sourceTree = "<group>"; };
 		82E69148192E1C6A00DB93FC /* plaatsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = plaatsViewController.h; sourceTree = "<group>"; };
 		82E69149192E1C6A00DB93FC /* plaatsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = plaatsViewController.m; sourceTree = "<group>"; };
 		82E6914A192E1C6A00DB93FC /* Plaats.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Plaats.h; sourceTree = "<group>"; };
 		82E6914B192E1C6A00DB93FC /* Plaats.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Plaats.m; sourceTree = "<group>"; };
 		82E6914C192E1C6A00DB93FC /* Home.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Home.h; sourceTree = "<group>"; };
 		82E6914D192E1C6A00DB93FC /* Home.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Home.m; sourceTree = "<group>"; };
+		82E69155192E20DA00DB93FC /* amusement.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = amusement.jpg; sourceTree = "<group>"; };
+		82E69156192E20DA00DB93FC /* monument.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = monument.jpg; sourceTree = "<group>"; };
+		82E69157192E20DA00DB93FC /* museum.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = museum.jpg; sourceTree = "<group>"; };
+		82E69158192E20DA00DB93FC /* muziek.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = muziek.jpg; sourceTree = "<group>"; };
+		82E69159192E20DA00DB93FC /* natuur.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = natuur.jpg; sourceTree = "<group>"; };
+		82E6915A192E20DA00DB93FC /* shopping.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shopping.jpg; sourceTree = "<group>"; };
+		82E6915C192E20DA00DB93FC /* drinken.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = drinken.png; sourceTree = "<group>"; };
+		82E6915D192E20DA00DB93FC /* eten.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eten.png; sourceTree = "<group>"; };
+		82E6915E192E20DA00DB93FC /* parking.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = parking.png; sourceTree = "<group>"; };
+		82E6915F192E20DA00DB93FC /* rolstoel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rolstoel.png; sourceTree = "<group>"; };
+		82E69160192E20DA00DB93FC /* wc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wc.png; sourceTree = "<group>"; };
 		A31796C9192CA8AB00B4F0B7 /* Tips.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tips.png; sourceTree = "<group>"; };
 		A3F0F840192B8E1000BF87CE /* homescreen_button-Instellingen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "homescreen_button-Instellingen.png"; sourceTree = "<group>"; };
 		A3F0F842192BF81E00BF87CE /* Instellingen-Instellingen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Instellingen-Instellingen.png"; sourceTree = "<group>"; };
@@ -222,29 +230,49 @@
 		82E69138192E1C2300DB93FC /* Op Stap */ = {
 			isa = PBXGroup;
 			children = (
+				82E69153192E20C900DB93FC /* images */,
 				82E69148192E1C6A00DB93FC /* plaatsViewController.h */,
 				82E69149192E1C6A00DB93FC /* plaatsViewController.m */,
 				82E6914A192E1C6A00DB93FC /* Plaats.h */,
 				82E6914B192E1C6A00DB93FC /* Plaats.m */,
 				82E6914C192E1C6A00DB93FC /* Home.h */,
 				82E6914D192E1C6A00DB93FC /* Home.m */,
-				82E69139192E1C2F00DB93FC /* images */,
 			);
 			name = "Op Stap";
 			sourceTree = "<group>";
 		};
-		82E69139192E1C2F00DB93FC /* images */ = {
+		82E69153192E20C900DB93FC /* images */ = {
 			isa = PBXGroup;
 			children = (
-				82E69146192E1C4E00DB93FC /* wc.png */,
-				82E6913A192E1C4500DB93FC /* amusement.jpg */,
-				82E6913B192E1C4500DB93FC /* monument.jpg */,
-				82E6913C192E1C4500DB93FC /* museum.jpg */,
-				82E6913D192E1C4500DB93FC /* muziek.jpg */,
-				82E6913E192E1C4500DB93FC /* natuur.jpg */,
-				82E6913F192E1C4500DB93FC /* shopping.jpg */,
+				82E69154192E20DA00DB93FC /* soorten */,
+				82E6915B192E20DA00DB93FC /* voorzieningen */,
 			);
 			name = images;
+			sourceTree = "<group>";
+		};
+		82E69154192E20DA00DB93FC /* soorten */ = {
+			isa = PBXGroup;
+			children = (
+				82E69155192E20DA00DB93FC /* amusement.jpg */,
+				82E69156192E20DA00DB93FC /* monument.jpg */,
+				82E69157192E20DA00DB93FC /* museum.jpg */,
+				82E69158192E20DA00DB93FC /* muziek.jpg */,
+				82E69159192E20DA00DB93FC /* natuur.jpg */,
+				82E6915A192E20DA00DB93FC /* shopping.jpg */,
+			);
+			path = soorten;
+			sourceTree = "<group>";
+		};
+		82E6915B192E20DA00DB93FC /* voorzieningen */ = {
+			isa = PBXGroup;
+			children = (
+				82E6915C192E20DA00DB93FC /* drinken.png */,
+				82E6915D192E20DA00DB93FC /* eten.png */,
+				82E6915E192E20DA00DB93FC /* parking.png */,
+				82E6915F192E20DA00DB93FC /* rolstoel.png */,
+				82E69160192E20DA00DB93FC /* wc.png */,
+			);
+			path = voorzieningen;
 			sourceTree = "<group>";
 		};
 		EE75229019264408004EB594 = {
@@ -432,23 +460,27 @@
 			buildActionMask = 2147483647;
 			files = (
 				A3F0F846192BF81E00BF87CE /* Instellingen-Mantelzorger.png in Resources */,
+				82E69167192E20DA00DB93FC /* drinken.png in Resources */,
 				EEA226A1192B44D4004628FC /* homescreen_button-04.png in Resources */,
+				82E6916B192E20DA00DB93FC /* wc.png in Resources */,
 				A3F0F847192BF81E00BF87CE /* Instellingen-Zorgbehoevende.png in Resources */,
 				EEA2269F192B44D4004628FC /* homescreen_button-02.png in Resources */,
+				82E69168192E20DA00DB93FC /* eten.png in Resources */,
 				EE7522A919264408004EB594 /* InfoPlist.strings in Resources */,
-				82E69142192E1C4500DB93FC /* museum.jpg in Resources */,
+				82E69163192E20DA00DB93FC /* museum.jpg in Resources */,
 				EEA226A0192B44D4004628FC /* homescreen_button-03.png in Resources */,
-				82E69145192E1C4500DB93FC /* shopping.jpg in Resources */,
+				82E69166192E20DA00DB93FC /* shopping.jpg in Resources */,
+				82E69169192E20DA00DB93FC /* parking.png in Resources */,
 				EE7522B419264408004EB594 /* Images.xcassets in Resources */,
 				EEA2269E192B44D4004628FC /* homescreen_button-01.png in Resources */,
+				82E6916A192E20DA00DB93FC /* rolstoel.png in Resources */,
 				A3F0F841192B8E1000BF87CE /* homescreen_button-Instellingen.png in Resources */,
 				EEB594EA1927D19F0005444F /* Storyboard.storyboard in Resources */,
 				EEB594EC1927EAB80005444F /* homescreen_mantl.png in Resources */,
-				82E69140192E1C4500DB93FC /* amusement.jpg in Resources */,
-				82E69141192E1C4500DB93FC /* monument.jpg in Resources */,
-				82E69147192E1C4E00DB93FC /* wc.png in Resources */,
-				82E69144192E1C4500DB93FC /* natuur.jpg in Resources */,
-				82E69143192E1C4500DB93FC /* muziek.jpg in Resources */,
+				82E69161192E20DA00DB93FC /* amusement.jpg in Resources */,
+				82E69162192E20DA00DB93FC /* monument.jpg in Resources */,
+				82E69165192E20DA00DB93FC /* natuur.jpg in Resources */,
+				82E69164192E20DA00DB93FC /* muziek.jpg in Resources */,
 				A31796CA192CA8AB00B4F0B7 /* Tips.png in Resources */,
 				A3F0F845192BF81E00BF87CE /* Instellingen-Instellingen.png in Resources */,
 			);
