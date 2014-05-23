@@ -38,7 +38,11 @@
 		A3F0F846192BF81E00BF87CE /* Instellingen-Mantelzorger.png in Resources */ = {isa = PBXBuildFile; fileRef = A3F0F843192BF81E00BF87CE /* Instellingen-Mantelzorger.png */; };
 		A3F0F847192BF81E00BF87CE /* Instellingen-Zorgbehoevende.png in Resources */ = {isa = PBXBuildFile; fileRef = A3F0F844192BF81E00BF87CE /* Instellingen-Zorgbehoevende.png */; };
 		C03E351A192B86A00063895C /* DagboekTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C03E3519192B86A00063895C /* DagboekTableViewController.m */; };
-		C03E3520192C99D40063895C /* SchrijfViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C03E351F192C99D40063895C /* SchrijfViewController.m */; };
+		C06B6F18192F3A9D00DA64D5 /* SchrijfViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C06B6F17192F3A9D00DA64D5 /* SchrijfViewController.m */; };
+		C0EF5FFB192F36C000878E6B /* DetailDagboekViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0EF5FF4192F36C000878E6B /* DetailDagboekViewController.m */; };
+		C0EF5FFC192F36C000878E6B /* DagboekViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0EF5FF6192F36C000878E6B /* DagboekViewController.m */; };
+		C0EF5FFD192F36C000878E6B /* HomeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C0EF5FF8192F36C000878E6B /* HomeModel.m */; };
+		C0EF5FFE192F36C000878E6B /* Diary.m in Sources */ = {isa = PBXBuildFile; fileRef = C0EF5FFA192F36C000878E6B /* Diary.m */; };
 		EE439A2C192E2B2B006860CC /* Mantl.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EE439A2A192E2B2B006860CC /* Mantl.xcdatamodeld */; };
 		EE439A2F192E2BD7006860CC /* MijnVraagEnAntwoordTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE439A2E192E2BD7006860CC /* MijnVraagEnAntwoordTableViewController.m */; };
 		EE439A32192E2C24006860CC /* Vraag.m in Sources */ = {isa = PBXBuildFile; fileRef = EE439A31192E2C24006860CC /* Vraag.m */; };
@@ -129,8 +133,16 @@
 		A3F0F844192BF81E00BF87CE /* Instellingen-Zorgbehoevende.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Instellingen-Zorgbehoevende.png"; sourceTree = "<group>"; };
 		C03E3518192B86A00063895C /* DagboekTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DagboekTableViewController.h; sourceTree = "<group>"; };
 		C03E3519192B86A00063895C /* DagboekTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DagboekTableViewController.m; sourceTree = "<group>"; };
-		C03E351E192C99D40063895C /* SchrijfViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SchrijfViewController.h; sourceTree = "<group>"; };
-		C03E351F192C99D40063895C /* SchrijfViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SchrijfViewController.m; sourceTree = "<group>"; };
+		C06B6F16192F3A9D00DA64D5 /* SchrijfViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SchrijfViewController.h; sourceTree = "<group>"; };
+		C06B6F17192F3A9D00DA64D5 /* SchrijfViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SchrijfViewController.m; sourceTree = "<group>"; };
+		C0EF5FF3192F36C000878E6B /* DetailDagboekViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailDagboekViewController.h; sourceTree = "<group>"; };
+		C0EF5FF4192F36C000878E6B /* DetailDagboekViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailDagboekViewController.m; sourceTree = "<group>"; };
+		C0EF5FF5192F36C000878E6B /* DagboekViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DagboekViewController.h; sourceTree = "<group>"; };
+		C0EF5FF6192F36C000878E6B /* DagboekViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DagboekViewController.m; sourceTree = "<group>"; };
+		C0EF5FF7192F36C000878E6B /* HomeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeModel.h; sourceTree = "<group>"; };
+		C0EF5FF8192F36C000878E6B /* HomeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeModel.m; sourceTree = "<group>"; };
+		C0EF5FF9192F36C000878E6B /* Diary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Diary.h; sourceTree = "<group>"; };
+		C0EF5FFA192F36C000878E6B /* Diary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Diary.m; sourceTree = "<group>"; };
 		EE439A2B192E2B2B006860CC /* Mantl.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Mantl.xcdatamodel; sourceTree = "<group>"; };
 		EE439A2D192E2BD7006860CC /* MijnVraagEnAntwoordTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MijnVraagEnAntwoordTableViewController.h; sourceTree = "<group>"; };
 		EE439A2E192E2BD7006860CC /* MijnVraagEnAntwoordTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MijnVraagEnAntwoordTableViewController.m; sourceTree = "<group>"; };
@@ -253,6 +265,23 @@
 			name = images;
 			sourceTree = "<group>";
 		};
+		C0EF5FF2192F35E500878E6B /* Dagboek */ = {
+			isa = PBXGroup;
+			children = (
+				C06B6F16192F3A9D00DA64D5 /* SchrijfViewController.h */,
+				C06B6F17192F3A9D00DA64D5 /* SchrijfViewController.m */,
+				C0EF5FF3192F36C000878E6B /* DetailDagboekViewController.h */,
+				C0EF5FF4192F36C000878E6B /* DetailDagboekViewController.m */,
+				C0EF5FF5192F36C000878E6B /* DagboekViewController.h */,
+				C0EF5FF6192F36C000878E6B /* DagboekViewController.m */,
+				C0EF5FF7192F36C000878E6B /* HomeModel.h */,
+				C0EF5FF8192F36C000878E6B /* HomeModel.m */,
+				C0EF5FF9192F36C000878E6B /* Diary.h */,
+				C0EF5FFA192F36C000878E6B /* Diary.m */,
+			);
+			name = Dagboek;
+			sourceTree = "<group>";
+		};
 		EE75229019264408004EB594 = {
 			isa = PBXGroup;
 			children = (
@@ -287,6 +316,7 @@
 		EE7522A419264408004EB594 /* Mantl */ = {
 			isa = PBXGroup;
 			children = (
+				C0EF5FF2192F35E500878E6B /* Dagboek */,
 				82E69138192E1C2300DB93FC /* Op Stap */,
 				EEB594E91927D19F0005444F /* Storyboard.storyboard */,
 				EEE53B47192C9BAB00607624 /* AppDelegate.h */,
@@ -304,8 +334,6 @@
 				EEE53B41192C9AEE00607624 /* HomeScreenViewController.m */,
 				C03E3518192B86A00063895C /* DagboekTableViewController.h */,
 				C03E3519192B86A00063895C /* DagboekTableViewController.m */,
-				C03E351E192C99D40063895C /* SchrijfViewController.h */,
-				C03E351F192C99D40063895C /* SchrijfViewController.m */,
 				EEE53B42192C9AEE00607624 /* MijnVragenTableViewController.h */,
 				EEE53B43192C9AEE00607624 /* MijnVragenTableViewController.m */,
 				EE439A2D192E2BD7006860CC /* MijnVraagEnAntwoordTableViewController.h */,
@@ -479,7 +507,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C03E3520192C99D40063895C /* SchrijfViewController.m in Sources */,
+				C0EF5FFD192F36C000878E6B /* HomeModel.m in Sources */,
 				C03E351A192B86A00063895C /* DagboekTableViewController.m in Sources */,
 				184ACACF192B772A00CD35B1 /* SBJsonTokeniser.m in Sources */,
 				EEE53B45192C9AEE00607624 /* HomeScreenViewController.m in Sources */,
@@ -493,16 +521,20 @@
 				184ACAC9192B772A00CD35B1 /* SBJsonStreamParserAccumulator.m in Sources */,
 				184ACAC7192B772A00CD35B1 /* SBJsonParser.m in Sources */,
 				184ACAC6192B772A00CD35B1 /* NSObject+SBJson.m in Sources */,
+				C0EF5FFC192F36C000878E6B /* DagboekViewController.m in Sources */,
 				184ACAD7192B986B00CD35B1 /* CreateAccountViewController.m in Sources */,
 				EE439A2F192E2BD7006860CC /* MijnVraagEnAntwoordTableViewController.m in Sources */,
 				184ACAD0192B772A00CD35B1 /* SBJsonUTF8Stream.m in Sources */,
 				EEE53B46192C9AEE00607624 /* MijnVragenTableViewController.m in Sources */,
 				82E6914F192E1C6A00DB93FC /* Plaats.m in Sources */,
+				C0EF5FFB192F36C000878E6B /* DetailDagboekViewController.m in Sources */,
 				184ACACD192B772A00CD35B1 /* SBJsonStreamWriterAccumulator.m in Sources */,
 				EEE53B44192C9AEE00607624 /* AlleVragenTableViewController.m in Sources */,
 				184ACACC192B772A00CD35B1 /* SBJsonStreamWriter.m in Sources */,
 				184ACACE192B772A00CD35B1 /* SBJsonStreamWriterState.m in Sources */,
 				184ACAC8192B772A00CD35B1 /* SBJsonStreamParser.m in Sources */,
+				C06B6F18192F3A9D00DA64D5 /* SchrijfViewController.m in Sources */,
+				C0EF5FFE192F36C000878E6B /* Diary.m in Sources */,
 				184ACACA192B772A00CD35B1 /* SBJsonStreamParserAdapter.m in Sources */,
 				EE439A2C192E2B2B006860CC /* Mantl.xcdatamodeld in Sources */,
 				EEE53B49192C9BAB00607624 /* AppDelegate.m in Sources */,

@@ -12,5 +12,6 @@
 
 @property (weak, nonatomic) IBOutlet UITextView *tekstveld;
 - (IBAction)opslaan:(id)sender;
+- (IBAction)backgroundClicker:(id)sender;
 
 @end
