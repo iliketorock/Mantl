@@ -94,6 +94,8 @@
     
     int rating = 0;
     
+    
+    
     UIImageView *plaatsWc = (UIImageView *)[myCell viewWithTag:101];
     if ( [item.wc  isEqual: @"ja"])
     {
@@ -132,8 +134,93 @@
     
     //RATING
     NSLog(@"%i", rating);
-   
     
+    BOOL ster1 = 0;
+    BOOL ster2 = 0;
+    BOOL ster3 = 0;
+    BOOL ster4 = 0;
+    BOOL ster5 = 0;
+    
+    if( rating >= 1)
+    {
+        ster1 = 1;
+    }
+    
+    if(rating >= 2){
+        
+        ster2 = 1;
+    }
+    
+    if (rating >= 3){
+        
+        ster3 = 1;
+    }
+    
+    if(rating >= 4)
+    {
+        ster4 = 1;
+    }
+    
+    if(rating >= 5)
+    {
+        ster5 = 1;
+    }
+    
+    if( ster1 == 0){
+        
+        UIImageView *ImgSter1 = (UIImageView *)[myCell viewWithTag:51];
+        ImgSter1.image = [UIImage imageNamed:@"leeg.png"];
+        
+    }else{
+        
+        UIImageView *ImgSter1 = (UIImageView *)[myCell viewWithTag:51];
+        ImgSter1.image = [UIImage imageNamed:@"vol.png"];
+    }
+    
+    if( ster2 == 0){
+        
+        UIImageView *ImgSter2 = (UIImageView *)[myCell viewWithTag:52];
+        ImgSter2.image = [UIImage imageNamed:@"leeg.png"];
+        
+    }else{
+        
+        UIImageView *ImgSter2 = (UIImageView *)[myCell viewWithTag:52];
+        ImgSter2.image = [UIImage imageNamed:@"vol.png"];
+    }
+    
+    if( ster3 == 0){
+        
+        UIImageView *ImgSter3 = (UIImageView *)[myCell viewWithTag:53];
+        ImgSter3.image = [UIImage imageNamed:@"leeg.png"];
+        
+    }else{
+        
+        UIImageView *ImgSter3 = (UIImageView *)[myCell viewWithTag:53];
+        ImgSter3.image = [UIImage imageNamed:@"vol.png"];
+    }
+    
+    if( ster4 == 0){
+        
+        UIImageView *ImgSter4 = (UIImageView *)[myCell viewWithTag:54];
+        ImgSter4.image = [UIImage imageNamed:@"leeg.png"];
+        
+    }else{
+        
+        UIImageView *ImgSter4 = (UIImageView *)[myCell viewWithTag:54];
+        ImgSter4.image = [UIImage imageNamed:@"vol.png"];
+    }
+    
+    if( ster5 == 0){
+        
+        UIImageView *ImgSter5 = (UIImageView *)[myCell viewWithTag:55];
+        ImgSter5.image = [UIImage imageNamed:@"leeg.png"];
+        
+    }else{
+        
+        UIImageView *ImgSter5 = (UIImageView *)[myCell viewWithTag:55];
+        ImgSter5.image = [UIImage imageNamed:@"vol.png"];
+    }
+   
     
     //Cell returnen
     return myCell;
