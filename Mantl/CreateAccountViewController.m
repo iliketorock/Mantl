@@ -67,7 +67,7 @@
             
             NSData *postData = [post dataUsingEncoding:NSASCIIStringEncoding allowLossyConversion:YES];
             
-            NSString *postLength = [NSString stringWithFormat:@"%d", [postData length]];
+            NSString *postLength = [NSString stringWithFormat:@"%lu", (unsigned long)[postData length]];
             
             NSMutableURLRequest *request = [[NSMutableURLRequest alloc] init];
             [request setURL:url];
@@ -83,7 +83,7 @@
             NSHTTPURLResponse *response = nil;
             NSData *urlData=[NSURLConnection sendSynchronousRequest:request returningResponse:&response error:&error];
             
-            NSLog(@"Response code: %d", [response statusCode]);
+            NSLog(@"Response code: %ld", (long)[response statusCode]);
             if ([response statusCode] >=200 && [response statusCode] <300)
             {
                 NSString *responseData = [[NSString alloc]initWithData:urlData encoding:NSUTF8StringEncoding];
@@ -93,7 +93,7 @@
                 NSDictionary *jsonData = (NSDictionary *) [jsonParser objectWithString:responseData error:nil];
                 NSLog(@"%@",jsonData);
                 NSInteger success = [(NSNumber *) [jsonData objectForKey:@"success"] integerValue];
-                NSLog(@"%d",success);
+                NSLog(@"%ld",(long)success);
                 if(success == 1)
                 {
                     NSLog(@"Register SUCCESS");

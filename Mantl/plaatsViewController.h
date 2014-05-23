@@ -11,9 +11,6 @@
 
 @interface plaatsViewController : UIViewController <UITableViewDataSource, UITableViewDelegate, HomeProtocol>
 
-
 @property (weak, nonatomic) IBOutlet UITableView *plaatsTableView;
-
-
 
 @end
