@@ -10,6 +10,8 @@
 
 @interface AlleVragenTableViewController ()
 
+@property (nonatomic) NSString* userID;
+
 @end
 
 @implementation AlleVragenTableViewController
@@ -34,6 +36,14 @@
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
     
     self.navigationController.navigationBar.translucent = NO;
+    
+    // **********************************************************************************
+    // User ID
+    NSUserDefaults* userData = [NSUserDefaults standardUserDefaults];
+    _userID = [userData objectForKey:@"userID"];
+    NSLog(@"%@", _userID);
+    // **********************************************************************************
+    
 }
 
 - (void)didReceiveMemoryWarning
@@ -42,18 +52,15 @@
     // Dispose of any resources that can be recreated.
 }
 
-#pragma mark - Table view data source
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
-#warning Potentially incomplete method implementation.
     // Return the number of sections.
     return 1;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-#warning Incomplete method implementation.
     // Return the number of rows in the section.
     return 0;
 }

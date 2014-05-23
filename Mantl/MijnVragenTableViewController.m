@@ -11,6 +11,7 @@
 
 @interface MijnVragenTableViewController ()
 
+@property (nonatomic) NSString* userID;
 @property (nonatomic) NSArray* vragen;
 
 @end
@@ -39,6 +40,14 @@
     self.navigationController.navigationBar.translucent = NO;
     
     _vragen = [NSArray arrayWithObjects: [[Vraag alloc] initMetTitelEnVraag:@"Spruitjes" :@"Waar vind ik spruitjes in de winkel?"], [[Vraag alloc] initMetTitelEnVraag:@"WC's Blakke Zon" :@"Heeft de Blakke Zon deftig onderhouden WC's?"], nil];
+    
+    // **********************************************************************************
+    // User ID
+    NSUserDefaults* userData = [NSUserDefaults standardUserDefaults];
+    _userID = [userData objectForKey:@"userID"];
+    NSLog(@"%@", _userID);
+    // **********************************************************************************
+    
 }
 
 - (void)didReceiveMemoryWarning

@@ -8,8 +8,11 @@
 
 #import "LoginControllerViewController.h"
 #import "SBJson.h"
+#import "HomeScreenViewController.h"
 
 @interface LoginControllerViewController ()
+
+@property (nonatomic) NSDictionary* jsonData;
 
 @end
 
@@ -36,17 +39,6 @@
     // Dispose of any resources that can be recreated.
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
-{
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
-
 - (IBAction)LoginButton:(id)sender {
     @try {
         
@@ -60,7 +52,7 @@
             
             NSData *postData = [post dataUsingEncoding:NSASCIIStringEncoding allowLossyConversion:YES];
             
-            NSString *postLength = [NSString stringWithFormat:@"%d", [postData length]];
+            NSString *postLength = [NSString stringWithFormat:@"%lu", (unsigned long)[postData length]];
             
             NSMutableURLRequest *request = [[NSMutableURLRequest alloc] init];
             [request setURL:url];
@@ -76,28 +68,33 @@
             NSHTTPURLResponse *response = nil;
             NSData *urlData=[NSURLConnection sendSynchronousRequest:request returningResponse:&response error:&error];
             
-            NSLog(@"Response code: %d", [response statusCode]);
+            NSLog(@"Response code: %ld", (long)[response statusCode]);
             if ([response statusCode] >=200 && [response statusCode] <300)
             {
                 NSString *responseData = [[NSString alloc]initWithData:urlData encoding:NSUTF8StringEncoding];
                 NSLog(@"Response ==> %@", responseData);
                 
                 SBJsonParser *jsonParser = [SBJsonParser new];
-                NSDictionary *jsonData = (NSDictionary *) [jsonParser objectWithString:responseData error:nil];
-                NSLog(@"%@",jsonData);
-                NSInteger success = [(NSNumber *) [jsonData objectForKey:@"success"] integerValue];
-
-                NSLog(@"%d",success);
+                _jsonData = (NSDictionary *) [jsonParser objectWithString:responseData error:nil];
+                NSLog(@"%@",_jsonData);
+                NSInteger success = [(NSNumber *) [_jsonData objectForKey:@"success"] integerValue];
+                
+                NSLog(@"%ld",(long)success);
                 if(success == 1)
                 {
                     NSLog(@"Login SUCCESS");
                     [self alertStatus:@"Logged in Successfully." :@"Login Success!"];
                     [self performSegueWithIdentifier: @"GoToHome" sender: self];
-
+                    
+                    // Set userID in User Data
+                    NSUserDefaults* userData = [NSUserDefaults standardUserDefaults];
+                    [userData setObject:[[_jsonData objectForKey:@"user"] objectForKey:@"ID_persoon"] forKey:@"userID"];
+                    [userData synchronize];
+                    
                     
                 } else {
                     
-                    NSString *error_msg = (NSString *) [jsonData objectForKey:@"error_message"];
+                    NSString *error_msg = (NSString *) [_jsonData objectForKey:@"error_message"];
                     [self alertStatus:error_msg :@"Login Failed!"];
                 }
                 
