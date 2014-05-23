@@ -14,6 +14,9 @@
     Home *_home;
     NSArray *_feedItems;
 }
+
+@property (nonatomic) NSString* userID;
+
 @end
 
 @implementation plaatsViewController
@@ -39,6 +42,13 @@
     
     // Call the download items method of the home model object
     [_home downloadItems];
+    
+    // **********************************************************************************
+    // User ID
+    NSUserDefaults* userData = [NSUserDefaults standardUserDefaults];
+    _userID = [userData objectForKey:@"userID"];
+    NSLog(@"%@", _userID);
+    // **********************************************************************************
 }
 
 - (void)didReceiveMemoryWarning
@@ -99,7 +109,7 @@
     {
         plaatsWc.image = [UIImage imageNamed:@"wc.jpg"];
     }
-   
+    
     
     
     //Cell returnen
