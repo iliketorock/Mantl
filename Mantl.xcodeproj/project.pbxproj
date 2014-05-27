@@ -22,6 +22,16 @@
 		184ACAD1192B772A00CD35B1 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 184ACAC5192B772A00CD35B1 /* SBJsonWriter.m */; };
 		184ACAD7192B986B00CD35B1 /* CreateAccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 184ACAD6192B986B00CD35B1 /* CreateAccountViewController.m */; };
 		186835B2192BDA7700A48FE3 /* ForgetPasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 186835B1192BDA7700A48FE3 /* ForgetPasswordViewController.m */; };
+		824034BA1933475900721AB0 /* drinkenLeeg.png in Resources */ = {isa = PBXBuildFile; fileRef = 824034B51933475900721AB0 /* drinkenLeeg.png */; };
+		824034BB1933475900721AB0 /* etenLeeg.png in Resources */ = {isa = PBXBuildFile; fileRef = 824034B61933475900721AB0 /* etenLeeg.png */; };
+		824034BC1933475900721AB0 /* parkingLeeg.png in Resources */ = {isa = PBXBuildFile; fileRef = 824034B71933475900721AB0 /* parkingLeeg.png */; };
+		824034BD1933475900721AB0 /* rolstoelLeeg.png in Resources */ = {isa = PBXBuildFile; fileRef = 824034B81933475900721AB0 /* rolstoelLeeg.png */; };
+		824034BE1933475900721AB0 /* wcLeeg.png in Resources */ = {isa = PBXBuildFile; fileRef = 824034B91933475900721AB0 /* wcLeeg.png */; };
+		824034D3193358EA00721AB0 /* allePlaatsen.png in Resources */ = {isa = PBXBuildFile; fileRef = 824034CF193358EA00721AB0 /* allePlaatsen.png */; };
+		824034D4193358EA00721AB0 /* alleVragen.png in Resources */ = {isa = PBXBuildFile; fileRef = 824034D0193358EA00721AB0 /* alleVragen.png */; };
+		824034D5193358EA00721AB0 /* mijnPlaatsen.png in Resources */ = {isa = PBXBuildFile; fileRef = 824034D1193358EA00721AB0 /* mijnPlaatsen.png */; };
+		824034D6193358EA00721AB0 /* mijnVragen.png in Resources */ = {isa = PBXBuildFile; fileRef = 824034D2193358EA00721AB0 /* mijnVragen.png */; };
+		824034D919335FB300721AB0 /* PlaatsOpslaanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 824034D819335FB300721AB0 /* PlaatsOpslaanViewController.m */; };
 		82E6914E192E1C6A00DB93FC /* plaatsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82E69149192E1C6A00DB93FC /* plaatsViewController.m */; };
 		82E6914F192E1C6A00DB93FC /* Plaats.m in Sources */ = {isa = PBXBuildFile; fileRef = 82E6914B192E1C6A00DB93FC /* Plaats.m */; };
 		82E69150192E1C6A00DB93FC /* Home.m in Sources */ = {isa = PBXBuildFile; fileRef = 82E6914D192E1C6A00DB93FC /* Home.m */; };
@@ -38,6 +48,13 @@
 		82E6916B192E20DA00DB93FC /* wc.png in Resources */ = {isa = PBXBuildFile; fileRef = 82E69160192E20DA00DB93FC /* wc.png */; };
 		82E6916F192F421600DB93FC /* leeg.png in Resources */ = {isa = PBXBuildFile; fileRef = 82E6916D192F421600DB93FC /* leeg.png */; };
 		82E69170192F421600DB93FC /* vol.png in Resources */ = {isa = PBXBuildFile; fileRef = 82E6916E192F421600DB93FC /* vol.png */; };
+		82E69177192F615C00DB93FC /* amusement.png in Resources */ = {isa = PBXBuildFile; fileRef = 82E69171192F615C00DB93FC /* amusement.png */; };
+		82E69178192F615C00DB93FC /* monument.png in Resources */ = {isa = PBXBuildFile; fileRef = 82E69172192F615C00DB93FC /* monument.png */; };
+		82E69179192F615C00DB93FC /* museum.png in Resources */ = {isa = PBXBuildFile; fileRef = 82E69173192F615C00DB93FC /* museum.png */; };
+		82E6917A192F615C00DB93FC /* muziek.png in Resources */ = {isa = PBXBuildFile; fileRef = 82E69174192F615C00DB93FC /* muziek.png */; };
+		82E6917B192F615C00DB93FC /* natuur.png in Resources */ = {isa = PBXBuildFile; fileRef = 82E69175192F615C00DB93FC /* natuur.png */; };
+		82E6917C192F615C00DB93FC /* shopping.png in Resources */ = {isa = PBXBuildFile; fileRef = 82E69176192F615C00DB93FC /* shopping.png */; };
+		82E6917F192F652C00DB93FC /* DetailPlaatsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82E6917E192F652C00DB93FC /* DetailPlaatsViewController.m */; };
 		A31796CA192CA8AB00B4F0B7 /* Tips.png in Resources */ = {isa = PBXBuildFile; fileRef = A31796C9192CA8AB00B4F0B7 /* Tips.png */; };
 		A3F0F841192B8E1000BF87CE /* homescreen_button-Instellingen.png in Resources */ = {isa = PBXBuildFile; fileRef = A3F0F840192B8E1000BF87CE /* homescreen_button-Instellingen.png */; };
 		A3F0F845192BF81E00BF87CE /* Instellingen-Instellingen.png in Resources */ = {isa = PBXBuildFile; fileRef = A3F0F842192BF81E00BF87CE /* Instellingen-Instellingen.png */; };
@@ -113,6 +130,17 @@
 		184ACAD6192B986B00CD35B1 /* CreateAccountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateAccountViewController.m; sourceTree = "<group>"; };
 		186835B0192BDA7700A48FE3 /* ForgetPasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForgetPasswordViewController.h; sourceTree = "<group>"; };
 		186835B1192BDA7700A48FE3 /* ForgetPasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForgetPasswordViewController.m; sourceTree = "<group>"; };
+		824034B51933475900721AB0 /* drinkenLeeg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = drinkenLeeg.png; sourceTree = "<group>"; };
+		824034B61933475900721AB0 /* etenLeeg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = etenLeeg.png; sourceTree = "<group>"; };
+		824034B71933475900721AB0 /* parkingLeeg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = parkingLeeg.png; sourceTree = "<group>"; };
+		824034B81933475900721AB0 /* rolstoelLeeg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rolstoelLeeg.png; sourceTree = "<group>"; };
+		824034B91933475900721AB0 /* wcLeeg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wcLeeg.png; sourceTree = "<group>"; };
+		824034CF193358EA00721AB0 /* allePlaatsen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = allePlaatsen.png; sourceTree = "<group>"; };
+		824034D0193358EA00721AB0 /* alleVragen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = alleVragen.png; sourceTree = "<group>"; };
+		824034D1193358EA00721AB0 /* mijnPlaatsen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mijnPlaatsen.png; sourceTree = "<group>"; };
+		824034D2193358EA00721AB0 /* mijnVragen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mijnVragen.png; sourceTree = "<group>"; };
+		824034D719335FB300721AB0 /* PlaatsOpslaanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaatsOpslaanViewController.h; sourceTree = "<group>"; };
+		824034D819335FB300721AB0 /* PlaatsOpslaanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaatsOpslaanViewController.m; sourceTree = "<group>"; };
 		82E69148192E1C6A00DB93FC /* plaatsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = plaatsViewController.h; sourceTree = "<group>"; };
 		82E69149192E1C6A00DB93FC /* plaatsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = plaatsViewController.m; sourceTree = "<group>"; };
 		82E6914A192E1C6A00DB93FC /* Plaats.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Plaats.h; sourceTree = "<group>"; };
@@ -132,6 +160,14 @@
 		82E69160192E20DA00DB93FC /* wc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wc.png; sourceTree = "<group>"; };
 		82E6916D192F421600DB93FC /* leeg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leeg.png; sourceTree = "<group>"; };
 		82E6916E192F421600DB93FC /* vol.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vol.png; sourceTree = "<group>"; };
+		82E69171192F615C00DB93FC /* amusement.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = amusement.png; sourceTree = "<group>"; };
+		82E69172192F615C00DB93FC /* monument.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monument.png; sourceTree = "<group>"; };
+		82E69173192F615C00DB93FC /* museum.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = museum.png; sourceTree = "<group>"; };
+		82E69174192F615C00DB93FC /* muziek.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = muziek.png; sourceTree = "<group>"; };
+		82E69175192F615C00DB93FC /* natuur.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = natuur.png; sourceTree = "<group>"; };
+		82E69176192F615C00DB93FC /* shopping.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shopping.png; sourceTree = "<group>"; };
+		82E6917D192F652C00DB93FC /* DetailPlaatsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailPlaatsViewController.h; sourceTree = "<group>"; };
+		82E6917E192F652C00DB93FC /* DetailPlaatsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailPlaatsViewController.m; sourceTree = "<group>"; };
 		A31796C9192CA8AB00B4F0B7 /* Tips.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tips.png; sourceTree = "<group>"; };
 		A3F0F840192B8E1000BF87CE /* homescreen_button-Instellingen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "homescreen_button-Instellingen.png"; sourceTree = "<group>"; };
 		A3F0F842192BF81E00BF87CE /* Instellingen-Instellingen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Instellingen-Instellingen.png"; sourceTree = "<group>"; };
@@ -231,6 +267,29 @@
 			name = JSON;
 			sourceTree = "<group>";
 		};
+		824034B41933475900721AB0 /* leeg */ = {
+			isa = PBXGroup;
+			children = (
+				824034B51933475900721AB0 /* drinkenLeeg.png */,
+				824034B61933475900721AB0 /* etenLeeg.png */,
+				824034B71933475900721AB0 /* parkingLeeg.png */,
+				824034B81933475900721AB0 /* rolstoelLeeg.png */,
+				824034B91933475900721AB0 /* wcLeeg.png */,
+			);
+			path = leeg;
+			sourceTree = "<group>";
+		};
+		824034CE193358EA00721AB0 /* Algemeen */ = {
+			isa = PBXGroup;
+			children = (
+				824034CF193358EA00721AB0 /* allePlaatsen.png */,
+				824034D0193358EA00721AB0 /* alleVragen.png */,
+				824034D1193358EA00721AB0 /* mijnPlaatsen.png */,
+				824034D2193358EA00721AB0 /* mijnVragen.png */,
+			);
+			path = Algemeen;
+			sourceTree = "<group>";
+		};
 		82E69138192E1C2300DB93FC /* Op Stap */ = {
 			isa = PBXGroup;
 			children = (
@@ -241,6 +300,10 @@
 				82E6914B192E1C6A00DB93FC /* Plaats.m */,
 				82E6914C192E1C6A00DB93FC /* Home.h */,
 				82E6914D192E1C6A00DB93FC /* Home.m */,
+				82E6917D192F652C00DB93FC /* DetailPlaatsViewController.h */,
+				82E6917E192F652C00DB93FC /* DetailPlaatsViewController.m */,
+				824034D719335FB300721AB0 /* PlaatsOpslaanViewController.h */,
+				824034D819335FB300721AB0 /* PlaatsOpslaanViewController.m */,
 			);
 			name = "Op Stap";
 			sourceTree = "<group>";
@@ -248,6 +311,7 @@
 		82E69153192E20C900DB93FC /* images */ = {
 			isa = PBXGroup;
 			children = (
+				824034CE193358EA00721AB0 /* Algemeen */,
 				82E6916C192F421600DB93FC /* sterren */,
 				82E69154192E20DA00DB93FC /* soorten */,
 				82E6915B192E20DA00DB93FC /* voorzieningen */,
@@ -258,6 +322,12 @@
 		82E69154192E20DA00DB93FC /* soorten */ = {
 			isa = PBXGroup;
 			children = (
+				82E69171192F615C00DB93FC /* amusement.png */,
+				82E69172192F615C00DB93FC /* monument.png */,
+				82E69173192F615C00DB93FC /* museum.png */,
+				82E69174192F615C00DB93FC /* muziek.png */,
+				82E69175192F615C00DB93FC /* natuur.png */,
+				82E69176192F615C00DB93FC /* shopping.png */,
 				82E69155192E20DA00DB93FC /* amusement.jpg */,
 				82E69156192E20DA00DB93FC /* monument.jpg */,
 				82E69157192E20DA00DB93FC /* museum.jpg */,
@@ -271,6 +341,7 @@
 		82E6915B192E20DA00DB93FC /* voorzieningen */ = {
 			isa = PBXGroup;
 			children = (
+				824034B41933475900721AB0 /* leeg */,
 				82E6915C192E20DA00DB93FC /* drinken.png */,
 				82E6915D192E20DA00DB93FC /* eten.png */,
 				82E6915E192E20DA00DB93FC /* parking.png */,
@@ -473,26 +544,41 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				824034D6193358EA00721AB0 /* mijnVragen.png in Resources */,
 				A3F0F846192BF81E00BF87CE /* Instellingen-Mantelzorger.png in Resources */,
 				82E69170192F421600DB93FC /* vol.png in Resources */,
 				82E69167192E20DA00DB93FC /* drinken.png in Resources */,
 				EEA226A1192B44D4004628FC /* homescreen_button-04.png in Resources */,
+				824034BB1933475900721AB0 /* etenLeeg.png in Resources */,
 				82E6916B192E20DA00DB93FC /* wc.png in Resources */,
 				A3F0F847192BF81E00BF87CE /* Instellingen-Zorgbehoevende.png in Resources */,
 				EEA2269F192B44D4004628FC /* homescreen_button-02.png in Resources */,
+				82E6917C192F615C00DB93FC /* shopping.png in Resources */,
 				82E69168192E20DA00DB93FC /* eten.png in Resources */,
+				82E6917A192F615C00DB93FC /* muziek.png in Resources */,
 				EE7522A919264408004EB594 /* InfoPlist.strings in Resources */,
 				82E69163192E20DA00DB93FC /* museum.jpg in Resources */,
+				82E69179192F615C00DB93FC /* museum.png in Resources */,
+				82E69178192F615C00DB93FC /* monument.png in Resources */,
 				EEA226A0192B44D4004628FC /* homescreen_button-03.png in Resources */,
 				82E69166192E20DA00DB93FC /* shopping.jpg in Resources */,
 				82E69169192E20DA00DB93FC /* parking.png in Resources */,
 				EE7522B419264408004EB594 /* Images.xcassets in Resources */,
 				EEA2269E192B44D4004628FC /* homescreen_button-01.png in Resources */,
+				82E6917B192F615C00DB93FC /* natuur.png in Resources */,
+				824034D3193358EA00721AB0 /* allePlaatsen.png in Resources */,
 				82E6916A192E20DA00DB93FC /* rolstoel.png in Resources */,
+				824034D4193358EA00721AB0 /* alleVragen.png in Resources */,
+				82E69177192F615C00DB93FC /* amusement.png in Resources */,
 				A3F0F841192B8E1000BF87CE /* homescreen_button-Instellingen.png in Resources */,
+				824034BD1933475900721AB0 /* rolstoelLeeg.png in Resources */,
 				EEB594EA1927D19F0005444F /* Storyboard.storyboard in Resources */,
 				EEB594EC1927EAB80005444F /* homescreen_mantl.png in Resources */,
+				824034BC1933475900721AB0 /* parkingLeeg.png in Resources */,
 				82E69161192E20DA00DB93FC /* amusement.jpg in Resources */,
+				824034BE1933475900721AB0 /* wcLeeg.png in Resources */,
+				824034BA1933475900721AB0 /* drinkenLeeg.png in Resources */,
+				824034D5193358EA00721AB0 /* mijnPlaatsen.png in Resources */,
 				82E69162192E20DA00DB93FC /* monument.jpg in Resources */,
 				82E69165192E20DA00DB93FC /* natuur.jpg in Resources */,
 				82E6916F192F421600DB93FC /* leeg.png in Resources */,
@@ -523,6 +609,7 @@
 				184ACACF192B772A00CD35B1 /* SBJsonTokeniser.m in Sources */,
 				EEE53B45192C9AEE00607624 /* HomeScreenViewController.m in Sources */,
 				EE7522B219264408004EB594 /* Mantl.xcdatamodeld in Sources */,
+				82E6917F192F652C00DB93FC /* DetailPlaatsViewController.m in Sources */,
 				82E6914E192E1C6A00DB93FC /* plaatsViewController.m in Sources */,
 				184ACACB192B772A00CD35B1 /* SBJsonStreamParserState.m in Sources */,
 				82E69150192E1C6A00DB93FC /* Home.m in Sources */,
@@ -538,6 +625,7 @@
 				EEE53B46192C9AEE00607624 /* MijnVragenTableViewController.m in Sources */,
 				82E6914F192E1C6A00DB93FC /* Plaats.m in Sources */,
 				184ACACD192B772A00CD35B1 /* SBJsonStreamWriterAccumulator.m in Sources */,
+				824034D919335FB300721AB0 /* PlaatsOpslaanViewController.m in Sources */,
 				EEE53B44192C9AEE00607624 /* AlleVragenTableViewController.m in Sources */,
 				184ACACC192B772A00CD35B1 /* SBJsonStreamWriter.m in Sources */,
 				184ACACE192B772A00CD35B1 /* SBJsonStreamWriterState.m in Sources */,

@@ -12,8 +12,10 @@
 
 @property (nonatomic, strong) NSString *titel;
 @property (nonatomic, strong) NSString *adres;
-@property (nonatomic, strong) NSString *afbeelding;
 @property (nonatomic, strong) NSString *soort;
+@property (nonatomic, strong) NSString *beschrijving;
+@property (nonatomic, strong) NSString *auteur;
+
 
 //Voorzieningen
 @property (nonatomic, strong) NSString *wc;
@@ -22,11 +24,5 @@
 @property (nonatomic, strong) NSString *eten;
 @property (nonatomic, strong) NSString *drinken;
 
-//Ratings
-@property (nonatomic, strong) NSString *ster1;
-@property (nonatomic, strong) NSString *ster2;
-@property (nonatomic, strong) NSString *ster3;
-@property (nonatomic, strong) NSString *ster4;
-@property (nonatomic, strong) NSString *ster5;
 
 @end

@@ -5,6 +5,7 @@
 //  Created by Gitte Pittillion on 22/05/14.
 //  Copyright (c) 2014 Mantelzorgers Groep 2. All rights reserved.
 //
+//TUTORIAL: http://codewithchris.com/iphone-app-connect-to-mysql-database/#parsejson
 
 #import "Home.h"
 #import "Plaats.h"
@@ -61,8 +62,9 @@
         Plaats *newPlaats = [[Plaats alloc] init];
         newPlaats.titel = jsonElement[@"Titel"];
         newPlaats.adres = jsonElement[@"adres"];
-        newPlaats.afbeelding = jsonElement[@"afbeelding"];
         newPlaats.soort = jsonElement[@"soort"];
+        newPlaats.beschrijving = jsonElement[@"beschrijving"];
+        newPlaats.auteur = jsonElement[@"ID_persoon"];
         
         //voorzieningen
         newPlaats.wc = jsonElement[@"wc"];

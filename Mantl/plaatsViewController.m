@@ -5,9 +5,11 @@
 //  Created by Gitte Pittillion on 22/05/14.
 //  Copyright (c) 2014 Mantelzorgers Groep 2. All rights reserved.
 //
+//Met behulp van tutorial: http://codewithchris.com/iphone-app-connect-to-mysql-database/#parsejson
 
 #import "plaatsViewController.h"
 #import "Plaats.h"
+#import "DetailPlaatsViewController.h"
 
 @interface plaatsViewController ()
 {
@@ -17,6 +19,8 @@
 @end
 
 @implementation plaatsViewController
+
+NSArray *voorzieningen;
 
 
 - (void)viewDidLoad
@@ -85,46 +89,52 @@
     plaatsAdres.text = item.adres;
     
     // AFBEELDING DAT SOORT PLAATS WEERGEEFT
-    NSString* linkImg = [NSString stringWithFormat:@"%@.jpg", item.soort];
+    NSString* linkImg = [NSString stringWithFormat:@"%@.png", item.soort];
     
     UIImageView *plaatsImg = (UIImageView *)[myCell viewWithTag:3];
     plaatsImg.image = [UIImage imageNamed:linkImg];
     
     //VOORZIENINGEN EN RATING
     
-    int rating = 0;
-    
-    
-    
+    //ImageViews van voorzieningen vullen met lege sterren
     UIImageView *plaatsWc = (UIImageView *)[myCell viewWithTag:101];
+    plaatsWc.image = [UIImage imageNamed:@"wcLeeg.png"];
+    UIImageView *plaatsParking = (UIImageView *)[myCell viewWithTag:102];
+    plaatsParking.image = [UIImage imageNamed:@"parkingLeeg.png"];
+    UIImageView *plaatsRolstoel = (UIImageView *)[myCell viewWithTag:103];
+    plaatsRolstoel.image = [UIImage imageNamed:@"rolstoelLeeg.png"];
+    UIImageView *plaatsEten = (UIImageView *)[myCell viewWithTag:104];
+    plaatsEten.image = [UIImage imageNamed:@"etenLeeg.png"];
+    UIImageView *plaatsDrinken = (UIImageView *)[myCell viewWithTag:105];
+    plaatsDrinken.image = [UIImage imageNamed:@"drinkenLeeg.png"];
+
+    //Variabele om rating bij te houden wanneer er een voorziening aanwezig is
+    int rating = 0;
+
     if ( [item.wc  isEqual: @"ja"])
     {
         plaatsWc.image = [UIImage imageNamed:@"wc.png"];
         rating += 1;
     }
     
-    UIImageView *plaatsParking = (UIImageView *)[myCell viewWithTag:102];
     if ( [item.parking  isEqual: @"ja"])
     {
         plaatsParking.image = [UIImage imageNamed:@"parking.png"];
         rating += 1;
     }
     
-    UIImageView *plaatsRolstoel = (UIImageView *)[myCell viewWithTag:103];
     if ( [item.rolstoel  isEqual: @"ja"])
     {
         plaatsRolstoel.image = [UIImage imageNamed:@"rolstoel.png"];
         rating += 1;
     }
     
-    UIImageView *plaatsEten = (UIImageView *)[myCell viewWithTag:104];
     if ( [item.eten  isEqual: @"ja"])
     {
         plaatsEten.image = [UIImage imageNamed:@"eten.png"];
         rating += 1;
     }
     
-    UIImageView *plaatsDrinken = (UIImageView *)[myCell viewWithTag:105];
     if ( [item.drinken  isEqual: @"ja"])
     {
         plaatsDrinken.image = [UIImage imageNamed:@"drinken.png"];
@@ -132,100 +142,87 @@
     }
     
     
-    //RATING
-    NSLog(@"%i", rating);
+    //ImageViews van rating vullen met lege sterren
+    UIImageView *ImgSter1 = (UIImageView *)[myCell viewWithTag:51];
+    ImgSter1.image = [UIImage imageNamed:@"leeg.png"];
+    UIImageView *ImgSter2 = (UIImageView *)[myCell viewWithTag:52];
+    ImgSter2.image = [UIImage imageNamed:@"leeg.png"];
+    UIImageView *ImgSter3 = (UIImageView *)[myCell viewWithTag:53];
+    ImgSter3.image = [UIImage imageNamed:@"leeg.png"];
+    UIImageView *ImgSter4 = (UIImageView *)[myCell viewWithTag:54];
+    ImgSter4.image = [UIImage imageNamed:@"leeg.png"];
+    UIImageView *ImgSter5 = (UIImageView *)[myCell viewWithTag:55];
+    ImgSter5.image = [UIImage imageNamed:@"leeg.png"];
     
-    BOOL ster1 = 0;
-    BOOL ster2 = 0;
-    BOOL ster3 = 0;
-    BOOL ster4 = 0;
-    BOOL ster5 = 0;
     
-    if( rating >= 1)
-    {
-        ster1 = 1;
+    // Aan de hand van de rating de imageViews vullen met volle sterren
+    switch (rating) {
+        case 5:
+            //
+            ImgSter5.image = [UIImage imageNamed:@"vol.png"];
+        case 4:
+            //
+            ImgSter4.image = [UIImage imageNamed:@"vol.png"];
+        case 3:
+            //
+            ImgSter3.image = [UIImage imageNamed:@"vol.png"];
+        case 2:
+            //
+            ImgSter2.image = [UIImage imageNamed:@"vol.png"];
+        case 1:
+            //
+            ImgSter1.image = [UIImage imageNamed:@"vol.png"];
+            
+        default:
+            break;
     }
-    
-    if(rating >= 2){
-        
-        ster2 = 1;
-    }
-    
-    if (rating >= 3){
-        
-        ster3 = 1;
-    }
-    
-    if(rating >= 4)
-    {
-        ster4 = 1;
-    }
-    
-    if(rating >= 5)
-    {
-        ster5 = 1;
-    }
-    
-    if( ster1 == 0){
-        
-        UIImageView *ImgSter1 = (UIImageView *)[myCell viewWithTag:51];
-        ImgSter1.image = [UIImage imageNamed:@"leeg.png"];
-        
-    }else{
-        
-        UIImageView *ImgSter1 = (UIImageView *)[myCell viewWithTag:51];
-        ImgSter1.image = [UIImage imageNamed:@"vol.png"];
-    }
-    
-    if( ster2 == 0){
-        
-        UIImageView *ImgSter2 = (UIImageView *)[myCell viewWithTag:52];
-        ImgSter2.image = [UIImage imageNamed:@"leeg.png"];
-        
-    }else{
-        
-        UIImageView *ImgSter2 = (UIImageView *)[myCell viewWithTag:52];
-        ImgSter2.image = [UIImage imageNamed:@"vol.png"];
-    }
-    
-    if( ster3 == 0){
-        
-        UIImageView *ImgSter3 = (UIImageView *)[myCell viewWithTag:53];
-        ImgSter3.image = [UIImage imageNamed:@"leeg.png"];
-        
-    }else{
-        
-        UIImageView *ImgSter3 = (UIImageView *)[myCell viewWithTag:53];
-        ImgSter3.image = [UIImage imageNamed:@"vol.png"];
-    }
-    
-    if( ster4 == 0){
-        
-        UIImageView *ImgSter4 = (UIImageView *)[myCell viewWithTag:54];
-        ImgSter4.image = [UIImage imageNamed:@"leeg.png"];
-        
-    }else{
-        
-        UIImageView *ImgSter4 = (UIImageView *)[myCell viewWithTag:54];
-        ImgSter4.image = [UIImage imageNamed:@"vol.png"];
-    }
-    
-    if( ster5 == 0){
-        
-        UIImageView *ImgSter5 = (UIImageView *)[myCell viewWithTag:55];
-        ImgSter5.image = [UIImage imageNamed:@"leeg.png"];
-        
-    }else{
-        
-        UIImageView *ImgSter5 = (UIImageView *)[myCell viewWithTag:55];
-        ImgSter5.image = [UIImage imageNamed:@"vol.png"];
-    }
-   
     
     //Cell returnen
     return myCell;
 }
 
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    if ([segue.identifier isEqualToString:@"plaatsDetail"]) {
+        NSIndexPath *indexPath = [self.plaatsTableView indexPathForSelectedRow];
+        DetailPlaatsViewController *destViewController = segue.destinationViewController;
+        Plaats *temp = [_feedItems objectAtIndex:indexPath.row];
+        //Algemeen
+        destViewController.titelTekst = temp.titel;
+        destViewController.adresTekst = temp.adres;
+        destViewController.soortTekst = temp.soort;
+        destViewController.beschrijvingTekst = temp.beschrijving;
+        destViewController.auteurTekst = temp.auteur;
+        //Voorzieningen
+        destViewController.wcTekst = temp.wc;
+        destViewController.parkingTekst = temp.parking;
+        destViewController.rolstoelTekst = temp.rolstoel;
+        destViewController.etenTekst = temp.eten;
+        destViewController.drinkenTekst = temp.drinken;
+    }
+}
+
+-(void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+    [_home downloadItems];
+    [self.plaatsTableView reloadData];
+    
+    //  [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(tableReload) name:@"tableReload" object:nil];
+    
+}
+
+
+-(void)viewWillDisappear:(BOOL)animated
+{
+    [super viewWillDisappear:animated];
+    //  [[NSNotificationCenter defaultCenter] removeObserver:self name:@"tableReload" object:nil];
+}
+
+-(void)tableReload
+{
+    [self.plaatsTableView reloadData];
+    
+}
 
 
 @end

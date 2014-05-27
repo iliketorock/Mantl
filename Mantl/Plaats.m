@@ -12,8 +12,9 @@
 
 @synthesize titel;
 @synthesize adres;
-@synthesize afbeelding;
 @synthesize soort;
+@synthesize beschrijving;
+@synthesize auteur;
 
 //Voorzieningen
 @synthesize wc;
@@ -21,5 +22,7 @@
 @synthesize rolstoel;
 @synthesize eten;
 @synthesize drinken;
+
+
 
 @end
